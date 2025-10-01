@@ -1,47 +1,49 @@
-**Currency ETL with dbt**
-This project implements an end-to-end ETL pipeline to fetch currency exchange rates from an API, load the raw data into Postgres, and transform it into analytics-ready tables using dbt.
+Currency ETL with dbt
 
+This project provides an end-to-end ETL pipeline to fetch currency exchange rates from an API, load the data into Postgres, and transform it into analytics-ready tables using dbt.
 
-**Setup Instructions**
-1. Clone the repo
+🚀 Setup Instructions
+
+1. Clone the repository
 
 git clone <repo-url>
 cd currency_pipeline
 
-2. Run the ETL pipeline
 
-Just run the batch script:
+2. Run the ETL pipeline
+Simply execute the batch script:
+
 run_etl.bat
 
-What the Batch File Does
+⚙️ What the Batch File Does
 
-The batch script (run_etl.bat) automates the entire process:
+The run_etl.bat script fully automates the pipeline by:
 
-Creates a Python virtual environment automatically (if not already present).
+Creating a Python virtual environment (if not already present)
 
-Activates the virtual environment.
+Activating the virtual environment
 
-Installs all required dependencies from requirements.txt.
+Installing all dependencies from requirements.txt
 
-Runs the Python fetcher (src/fetch_currency_api.py) to get daily exchange rates and store them in dbt_currency/seeds/.
+Running the Python fetcher (src/fetch_currency_api.py) to pull daily exchange rates and save them in dbt_currency/seeds/
 
-Runs dbt seed to load raw data into Postgres.
+Executing dbt seed to load raw data into Postgres
 
-Runs dbt run to build staging and analytics-ready models.
+Running dbt run to build staging and analytics-ready models
 
-Runs dbt test to validate the transformations.
+Running dbt test to validate transformations
 
-No manual setup of virtual environment is needed — everything is handled inside the batch file.
+👉 No manual virtual environment setup is required — the batch file handles everything.
 
-Python Script (Optional Run)
+🐍 Running the Python Script Manually (Optional)
 
-The ingestion script is run automatically via the batch file, but you can run it manually if needed:
+Although the batch file handles ingestion automatically, you can also run the fetcher directly:
 
 python src/fetch_currency_api.py --config config.yml
 
-Configuration
+🛠️ Configuration
 
-config.yml contains:
+The config.yml file contains:
 
 API endpoint and key
 
@@ -49,16 +51,16 @@ Postgres connection details
 
 Target currency list
 
-Update this file before running the pipeline.
+Make sure to update these values before running the pipeline.
 
-Example Workflow
+✅ Example Workflow
 
 Run run_etl.bat
 
-Pipeline fetches latest exchange rates from API
+The pipeline fetches the latest exchange rates from the API
 
-Loads CSV into dbt_currency/seeds/ and then into Postgres staging
+Data is written to CSV in dbt_currency/seeds/ and then loaded into Postgres staging tables
 
 dbt builds weekly aggregates
 
-Data is ready for downstream analytics
+Data is ready for analytics and reporting
