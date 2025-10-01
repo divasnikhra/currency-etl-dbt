@@ -1,0 +1,1 @@
+{"_invocation_id": "c95f4fbc-721a-4662-b7ff-ff455498700d", "linked": {"0": {"name": "model.dbt_currency.stg_currency_daily", "type": "model", "succ": [2]}, "1": {"name": "seed.dbt_currency.currency_daily", "type": "seed", "succ": [0]}, "2": {"name": "model.dbt_currency.currency_weekly", "type": "model"}}}

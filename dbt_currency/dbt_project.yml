@@ -1,0 +1,16 @@
+name: 'dbt_currency'
+version: '1.0'
+config-version: 2
+
+profile: 'dbt_currency_profile'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+
+models:
+  dbt_currency:
+    +schema: msd_financial_dbt
+    staging:
+      # No schema here
+    marts:
+      +materialized: table

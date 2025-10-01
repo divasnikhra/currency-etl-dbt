@@ -1,0 +1,17 @@
+api:
+  endpoint: "https://api.cnb.cz/cnbapi/exrates/daily"
+  lang: "EN"
+  timeout_seconds: 10
+  max_retries: 3
+  
+db:
+  host: "localhost"
+  port: 5432
+  dbname: "postgres"
+  user: "postgres"
+  password: "admin"
+
+run:
+  run_type: "full"
+  start_date: "2025-09-01"
+  end_date: "2025-09-30"

@@ -1,0 +1,838 @@
+fetch_date,country,currency,amount,currency_code,rate
+2025-10-01,Australia,dollar,1,AUD,13.669
+2025-10-01,Brazil,real,1,BRL,3.845
+2025-10-01,Bulgaria,lev,1,BGN,12.496
+2025-10-01,Canada,dollar,1,CAD,15.177
+2025-10-01,China,renminbi,1,CNY,2.925
+2025-10-01,Denmark,krone,1,DKK,3.274
+2025-10-01,EMU,euro,1,EUR,24.44
+2025-10-01,Hongkong,dollar,1,HKD,2.676
+2025-10-01,Hungary,forint,100,HUF,6.188
+2025-10-01,Iceland,krona,100,ISK,17.043
+2025-10-01,IMF,SDR,1,XDR,28.559
+2025-10-01,India,rupee,100,INR,23.662
+2025-10-01,Indonesia,rupiah,1000,IDR,1.271
+2025-10-01,Israel,new shekel,1,ILS,6.224
+2025-10-01,Japan,yen,100,JPY,14.175
+2025-10-01,Malaysia,ringgit,1,MYR,4.939
+2025-10-01,Mexico,peso,1,MXN,1.121
+2025-10-01,New Zealand,dollar,1,NZD,12.312
+2025-10-01,Norway,krone,1,NOK,2.083
+2025-10-01,Philippines,peso,100,PHP,36.506
+2025-10-01,Poland,zloty,1,PLN,5.744
+2025-10-01,Romania,leu,1,RON,4.817
+2025-10-01,Singapore,dollar,1,SGD,16.254
+2025-10-01,South Africa,rand,1,ZAR,1.188
+2025-10-01,South Korea,won,100,KRW,1.498
+2025-10-01,Sweden,krona,1,SEK,2.219
+2025-10-01,Switzerland,franc,1,CHF,26.056
+2025-10-01,Thailand,baht,100,THB,64.592
+2025-10-01,Turkey,lira,100,TRY,50.752
+2025-10-01,United Kingdom,pound,1,GBP,28.223
+2025-10-01,USA,dollar,1,USD,20.867
+2025-10-01,Australia,dollar,1,AUD,13.679
+2025-10-01,Brazil,real,1,BRL,3.85
+2025-10-01,Bulgaria,lev,1,BGN,12.518
+2025-10-01,Canada,dollar,1,CAD,15.252
+2025-10-01,China,renminbi,1,CNY,2.944
+2025-10-01,Denmark,krone,1,DKK,3.281
+2025-10-01,EMU,euro,1,EUR,24.485
+2025-10-01,Hongkong,dollar,1,HKD,2.694
+2025-10-01,Hungary,forint,100,HUF,6.19
+2025-10-01,Iceland,krona,100,ISK,17.051
+2025-10-01,IMF,SDR,1,XDR,28.787
+2025-10-01,India,rupee,100,INR,23.871
+2025-10-01,Indonesia,rupiah,1000,IDR,1.283
+2025-10-01,Israel,new shekel,1,ILS,6.204
+2025-10-01,Japan,yen,100,JPY,14.144
+2025-10-01,Malaysia,ringgit,1,MYR,4.972
+2025-10-01,Mexico,peso,1,MXN,1.12
+2025-10-01,New Zealand,dollar,1,NZD,12.308
+2025-10-01,Norway,krone,1,NOK,2.096
+2025-10-01,Philippines,peso,100,PHP,36.681
+2025-10-01,Poland,zloty,1,PLN,5.74
+2025-10-01,Romania,leu,1,RON,4.818
+2025-10-01,Singapore,dollar,1,SGD,16.318
+2025-10-01,South Africa,rand,1,ZAR,1.187
+2025-10-01,South Korea,won,100,KRW,1.507
+2025-10-01,Sweden,krona,1,SEK,2.224
+2025-10-01,Switzerland,franc,1,CHF,26.141
+2025-10-01,Thailand,baht,100,THB,64.958
+2025-10-01,Turkey,lira,100,TRY,51.115
+2025-10-01,United Kingdom,pound,1,GBP,28.135
+2025-10-01,USA,dollar,1,USD,21.033
+2025-10-01,Australia,dollar,1,AUD,13.712
+2025-10-01,Brazil,real,1,BRL,3.851
+2025-10-01,Bulgaria,lev,1,BGN,12.499
+2025-10-01,Canada,dollar,1,CAD,15.196
+2025-10-01,China,renminbi,1,CNY,2.935
+2025-10-01,Denmark,krone,1,DKK,3.275
+2025-10-01,EMU,euro,1,EUR,24.445
+2025-10-01,Hongkong,dollar,1,HKD,2.688
+2025-10-01,Hungary,forint,100,HUF,6.216
+2025-10-01,Iceland,krona,100,ISK,17.023
+2025-10-01,IMF,SDR,1,XDR,28.633
+2025-10-01,India,rupee,100,INR,23.823
+2025-10-01,Indonesia,rupiah,1000,IDR,1.277
+2025-10-01,Israel,new shekel,1,ILS,6.225
+2025-10-01,Japan,yen,100,JPY,14.113
+2025-10-01,Malaysia,ringgit,1,MYR,4.96
+2025-10-01,Mexico,peso,1,MXN,1.122
+2025-10-01,New Zealand,dollar,1,NZD,12.307
+2025-10-01,Norway,krone,1,NOK,2.089
+2025-10-01,Philippines,peso,100,PHP,36.587
+2025-10-01,Poland,zloty,1,PLN,5.749
+2025-10-01,Romania,leu,1,RON,4.814
+2025-10-01,Singapore,dollar,1,SGD,16.275
+2025-10-01,South Africa,rand,1,ZAR,1.189
+2025-10-01,South Korea,won,100,KRW,1.509
+2025-10-01,Sweden,krona,1,SEK,2.222
+2025-10-01,Switzerland,franc,1,CHF,26.067
+2025-10-01,Thailand,baht,100,THB,64.868
+2025-10-01,Turkey,lira,100,TRY,50.988
+2025-10-01,United Kingdom,pound,1,GBP,28.135
+2025-10-01,USA,dollar,1,USD,20.968
+2025-10-01,Australia,dollar,1,AUD,13.689
+2025-10-01,Brazil,real,1,BRL,3.847
+2025-10-01,Bulgaria,lev,1,BGN,12.498
+2025-10-01,Canada,dollar,1,CAD,15.198
+2025-10-01,China,renminbi,1,CNY,2.939
+2025-10-01,Denmark,krone,1,DKK,3.276
+2025-10-01,EMU,euro,1,EUR,24.455
+2025-10-01,Hongkong,dollar,1,HKD,2.691
+2025-10-01,Hungary,forint,100,HUF,6.219
+2025-10-01,Iceland,krona,100,ISK,17.03
+2025-10-01,IMF,SDR,1,XDR,28.671
+2025-10-01,India,rupee,100,INR,23.822
+2025-10-01,Indonesia,rupiah,1000,IDR,1.278
+2025-10-01,Israel,new shekel,1,ILS,6.241
+2025-10-01,Japan,yen,100,JPY,14.154
+2025-10-01,Malaysia,ringgit,1,MYR,4.968
+2025-10-01,Mexico,peso,1,MXN,1.119
+2025-10-01,New Zealand,dollar,1,NZD,12.303
+2025-10-01,Norway,krone,1,NOK,2.081
+2025-10-01,Philippines,peso,100,PHP,36.757
+2025-10-01,Poland,zloty,1,PLN,5.751
+2025-10-01,Romania,leu,1,RON,4.816
+2025-10-01,Singapore,dollar,1,SGD,16.287
+2025-10-01,South Africa,rand,1,ZAR,1.181
+2025-10-01,South Korea,won,100,KRW,1.506
+2025-10-01,Sweden,krona,1,SEK,2.219
+2025-10-01,Switzerland,franc,1,CHF,26.07
+2025-10-01,Thailand,baht,100,THB,64.978
+2025-10-01,Turkey,lira,100,TRY,51.032
+2025-10-01,United Kingdom,pound,1,GBP,28.229
+2025-10-01,USA,dollar,1,USD,20.988
+2025-10-01,Australia,dollar,1,AUD,13.668
+2025-10-01,Brazil,real,1,BRL,3.851
+2025-10-01,Bulgaria,lev,1,BGN,12.49
+2025-10-01,Canada,dollar,1,CAD,15.136
+2025-10-01,China,renminbi,1,CNY,2.925
+2025-10-01,Denmark,krone,1,DKK,3.272
+2025-10-01,EMU,euro,1,EUR,24.425
+2025-10-01,Hongkong,dollar,1,HKD,2.676
+2025-10-01,Hungary,forint,100,HUF,6.219
+2025-10-01,Iceland,krona,100,ISK,17.057
+2025-10-01,IMF,SDR,1,XDR,28.545
+2025-10-01,India,rupee,100,INR,23.661
+2025-10-01,Indonesia,rupiah,1000,IDR,1.272
+2025-10-01,Israel,new shekel,1,ILS,6.257
+2025-10-01,Japan,yen,100,JPY,14.105
+2025-10-01,Malaysia,ringgit,1,MYR,4.942
+2025-10-01,Mexico,peso,1,MXN,1.118
+2025-10-01,New Zealand,dollar,1,NZD,12.28
+2025-10-01,Norway,krone,1,NOK,2.079
+2025-10-01,Philippines,peso,100,PHP,36.728
+2025-10-01,Poland,zloty,1,PLN,5.745
+2025-10-01,Romania,leu,1,RON,4.809
+2025-10-01,Singapore,dollar,1,SGD,16.233
+2025-10-01,South Africa,rand,1,ZAR,1.181
+2025-10-01,South Korea,won,100,KRW,1.501
+2025-10-01,Sweden,krona,1,SEK,2.22
+2025-10-01,Switzerland,franc,1,CHF,26.026
+2025-10-01,Thailand,baht,100,THB,64.884
+2025-10-01,Turkey,lira,100,TRY,50.611
+2025-10-01,United Kingdom,pound,1,GBP,28.149
+2025-10-01,USA,dollar,1,USD,20.88
+2025-10-01,Australia,dollar,1,AUD,13.668
+2025-10-01,Brazil,real,1,BRL,3.851
+2025-10-01,Bulgaria,lev,1,BGN,12.49
+2025-10-01,Canada,dollar,1,CAD,15.136
+2025-10-01,China,renminbi,1,CNY,2.925
+2025-10-01,Denmark,krone,1,DKK,3.272
+2025-10-01,EMU,euro,1,EUR,24.425
+2025-10-01,Hongkong,dollar,1,HKD,2.676
+2025-10-01,Hungary,forint,100,HUF,6.219
+2025-10-01,Iceland,krona,100,ISK,17.057
+2025-10-01,IMF,SDR,1,XDR,28.545
+2025-10-01,India,rupee,100,INR,23.661
+2025-10-01,Indonesia,rupiah,1000,IDR,1.272
+2025-10-01,Israel,new shekel,1,ILS,6.257
+2025-10-01,Japan,yen,100,JPY,14.105
+2025-10-01,Malaysia,ringgit,1,MYR,4.942
+2025-10-01,Mexico,peso,1,MXN,1.118
+2025-10-01,New Zealand,dollar,1,NZD,12.28
+2025-10-01,Norway,krone,1,NOK,2.079
+2025-10-01,Philippines,peso,100,PHP,36.728
+2025-10-01,Poland,zloty,1,PLN,5.745
+2025-10-01,Romania,leu,1,RON,4.809
+2025-10-01,Singapore,dollar,1,SGD,16.233
+2025-10-01,South Africa,rand,1,ZAR,1.181
+2025-10-01,South Korea,won,100,KRW,1.501
+2025-10-01,Sweden,krona,1,SEK,2.22
+2025-10-01,Switzerland,franc,1,CHF,26.026
+2025-10-01,Thailand,baht,100,THB,64.884
+2025-10-01,Turkey,lira,100,TRY,50.611
+2025-10-01,United Kingdom,pound,1,GBP,28.149
+2025-10-01,USA,dollar,1,USD,20.88
+2025-10-01,Australia,dollar,1,AUD,13.668
+2025-10-01,Brazil,real,1,BRL,3.851
+2025-10-01,Bulgaria,lev,1,BGN,12.49
+2025-10-01,Canada,dollar,1,CAD,15.136
+2025-10-01,China,renminbi,1,CNY,2.925
+2025-10-01,Denmark,krone,1,DKK,3.272
+2025-10-01,EMU,euro,1,EUR,24.425
+2025-10-01,Hongkong,dollar,1,HKD,2.676
+2025-10-01,Hungary,forint,100,HUF,6.219
+2025-10-01,Iceland,krona,100,ISK,17.057
+2025-10-01,IMF,SDR,1,XDR,28.545
+2025-10-01,India,rupee,100,INR,23.661
+2025-10-01,Indonesia,rupiah,1000,IDR,1.272
+2025-10-01,Israel,new shekel,1,ILS,6.257
+2025-10-01,Japan,yen,100,JPY,14.105
+2025-10-01,Malaysia,ringgit,1,MYR,4.942
+2025-10-01,Mexico,peso,1,MXN,1.118
+2025-10-01,New Zealand,dollar,1,NZD,12.28
+2025-10-01,Norway,krone,1,NOK,2.079
+2025-10-01,Philippines,peso,100,PHP,36.728
+2025-10-01,Poland,zloty,1,PLN,5.745
+2025-10-01,Romania,leu,1,RON,4.809
+2025-10-01,Singapore,dollar,1,SGD,16.233
+2025-10-01,South Africa,rand,1,ZAR,1.181
+2025-10-01,South Korea,won,100,KRW,1.501
+2025-10-01,Sweden,krona,1,SEK,2.22
+2025-10-01,Switzerland,franc,1,CHF,26.026
+2025-10-01,Thailand,baht,100,THB,64.884
+2025-10-01,Turkey,lira,100,TRY,50.611
+2025-10-01,United Kingdom,pound,1,GBP,28.149
+2025-10-01,USA,dollar,1,USD,20.88
+2025-10-01,Australia,dollar,1,AUD,13.682
+2025-10-01,Brazil,real,1,BRL,3.843
+2025-10-01,Bulgaria,lev,1,BGN,12.462
+2025-10-01,Canada,dollar,1,CAD,15.042
+2025-10-01,China,renminbi,1,CNY,2.913
+2025-10-01,Denmark,krone,1,DKK,3.263
+2025-10-01,EMU,euro,1,EUR,24.36
+2025-10-01,Hongkong,dollar,1,HKD,2.665
+2025-10-01,Hungary,forint,100,HUF,6.19
+2025-10-01,Iceland,krona,100,ISK,16.987
+2025-10-01,IMF,SDR,1,XDR,28.434
+2025-10-01,India,rupee,100,INR,23.594
+2025-10-01,Indonesia,rupiah,1000,IDR,1.274
+2025-10-01,Israel,new shekel,1,ILS,6.241
+2025-10-01,Japan,yen,100,JPY,14.054
+2025-10-01,Malaysia,ringgit,1,MYR,4.924
+2025-10-01,Mexico,peso,1,MXN,1.113
+2025-10-01,New Zealand,dollar,1,NZD,12.325
+2025-10-01,Norway,krone,1,NOK,2.08
+2025-10-01,Philippines,peso,100,PHP,36.597
+2025-10-01,Poland,zloty,1,PLN,5.733
+2025-10-01,Romania,leu,1,RON,4.803
+2025-10-01,Singapore,dollar,1,SGD,16.17
+2025-10-01,South Africa,rand,1,ZAR,1.182
+2025-10-01,South Korea,won,100,KRW,1.496
+2025-10-01,Sweden,krona,1,SEK,2.215
+2025-10-01,Switzerland,franc,1,CHF,26.117
+2025-10-01,Thailand,baht,100,THB,65.403
+2025-10-01,Turkey,lira,100,TRY,50.381
+2025-10-01,United Kingdom,pound,1,GBP,28.107
+2025-10-01,USA,dollar,1,USD,20.768
+2025-10-01,Australia,dollar,1,AUD,13.693
+2025-10-01,Brazil,real,1,BRL,3.819
+2025-10-01,Bulgaria,lev,1,BGN,12.437
+2025-10-01,Canada,dollar,1,CAD,14.999
+2025-10-01,China,renminbi,1,CNY,2.909
+2025-10-01,Denmark,krone,1,DKK,3.258
+2025-10-01,EMU,euro,1,EUR,24.325
+2025-10-01,Hongkong,dollar,1,HKD,2.66
+2025-10-01,Hungary,forint,100,HUF,6.184
+2025-10-01,Iceland,krona,100,ISK,16.963
+2025-10-01,IMF,SDR,1,XDR,28.4
+2025-10-01,India,rupee,100,INR,23.491
+2025-10-01,Indonesia,rupiah,1000,IDR,1.257
+2025-10-01,Israel,new shekel,1,ILS,6.202
+2025-10-01,Japan,yen,100,JPY,14.11
+2025-10-01,Malaysia,ringgit,1,MYR,4.925
+2025-10-01,Mexico,peso,1,MXN,1.112
+2025-10-01,New Zealand,dollar,1,NZD,12.325
+2025-10-01,Norway,krone,1,NOK,2.078
+2025-10-01,Philippines,peso,100,PHP,36.408
+2025-10-01,Poland,zloty,1,PLN,5.716
+2025-10-01,Romania,leu,1,RON,4.794
+2025-10-01,Singapore,dollar,1,SGD,16.164
+2025-10-01,South Africa,rand,1,ZAR,1.184
+2025-10-01,South Korea,won,100,KRW,1.494
+2025-10-01,Sweden,krona,1,SEK,2.211
+2025-10-01,Switzerland,franc,1,CHF,26.072
+2025-10-01,Thailand,baht,100,THB,65.384
+2025-10-01,Turkey,lira,100,TRY,50.182
+2025-10-01,United Kingdom,pound,1,GBP,28.083
+2025-10-01,USA,dollar,1,USD,20.713
+2025-10-01,Australia,dollar,1,AUD,13.768
+2025-10-01,Brazil,real,1,BRL,3.841
+2025-10-01,Bulgaria,lev,1,BGN,12.47
+2025-10-01,Canada,dollar,1,CAD,15.046
+2025-10-01,China,renminbi,1,CNY,2.928
+2025-10-01,Denmark,krone,1,DKK,3.267
+2025-10-01,EMU,euro,1,EUR,24.39
+2025-10-01,Hongkong,dollar,1,HKD,2.677
+2025-10-01,Hungary,forint,100,HUF,6.2
+2025-10-01,Iceland,krona,100,ISK,17.056
+2025-10-01,IMF,SDR,1,XDR,28.644
+2025-10-01,India,rupee,100,INR,23.663
+2025-10-01,Indonesia,rupiah,1000,IDR,1.267
+2025-10-01,Israel,new shekel,1,ILS,6.255
+2025-10-01,Japan,yen,100,JPY,14.134
+2025-10-01,Malaysia,ringgit,1,MYR,4.947
+2025-10-01,Mexico,peso,1,MXN,1.119
+2025-10-01,New Zealand,dollar,1,NZD,12.383
+2025-10-01,Norway,krone,1,NOK,2.099
+2025-10-01,Philippines,peso,100,PHP,36.503
+2025-10-01,Poland,zloty,1,PLN,5.72
+2025-10-01,Romania,leu,1,RON,4.806
+2025-10-01,Singapore,dollar,1,SGD,16.25
+2025-10-01,South Africa,rand,1,ZAR,1.185
+2025-10-01,South Korea,won,100,KRW,1.501
+2025-10-01,Sweden,krona,1,SEK,2.227
+2025-10-01,Switzerland,franc,1,CHF,26.128
+2025-10-01,Thailand,baht,100,THB,65.537
+2025-10-01,Turkey,lira,100,TRY,50.509
+2025-10-01,United Kingdom,pound,1,GBP,28.208
+2025-10-01,USA,dollar,1,USD,20.852
+2025-10-01,Australia,dollar,1,AUD,13.783
+2025-10-01,Brazil,real,1,BRL,3.853
+2025-10-01,Bulgaria,lev,1,BGN,12.467
+2025-10-01,Canada,dollar,1,CAD,15.03
+2025-10-01,China,renminbi,1,CNY,2.929
+2025-10-01,Denmark,krone,1,DKK,3.267
+2025-10-01,EMU,euro,1,EUR,24.385
+2025-10-01,Hongkong,dollar,1,HKD,2.679
+2025-10-01,Hungary,forint,100,HUF,6.205
+2025-10-01,Iceland,krona,100,ISK,17.076
+2025-10-01,IMF,SDR,1,XDR,28.602
+2025-10-01,India,rupee,100,INR,23.601
+2025-10-01,Indonesia,rupiah,1000,IDR,1.268
+2025-10-01,Israel,new shekel,1,ILS,6.247
+2025-10-01,Japan,yen,100,JPY,14.109
+2025-10-01,Malaysia,ringgit,1,MYR,4.943
+2025-10-01,Mexico,peso,1,MXN,1.119
+2025-10-01,New Zealand,dollar,1,NZD,12.372
+2025-10-01,Norway,krone,1,NOK,2.099
+2025-10-01,Philippines,peso,100,PHP,36.494
+2025-10-01,Poland,zloty,1,PLN,5.716
+2025-10-01,Romania,leu,1,RON,4.809
+2025-10-01,Singapore,dollar,1,SGD,16.24
+2025-10-01,South Africa,rand,1,ZAR,1.19
+2025-10-01,South Korea,won,100,KRW,1.498
+2025-10-01,Sweden,krona,1,SEK,2.227
+2025-10-01,Switzerland,franc,1,CHF,26.092
+2025-10-01,Thailand,baht,100,THB,65.589
+2025-10-01,Turkey,lira,100,TRY,50.536
+2025-10-01,United Kingdom,pound,1,GBP,28.204
+2025-10-01,USA,dollar,1,USD,20.869
+2025-10-01,Australia,dollar,1,AUD,13.779
+2025-10-01,Brazil,real,1,BRL,3.843
+2025-10-01,Bulgaria,lev,1,BGN,12.432
+2025-10-01,Canada,dollar,1,CAD,14.983
+2025-10-01,China,renminbi,1,CNY,2.913
+2025-10-01,Denmark,krone,1,DKK,3.257
+2025-10-01,EMU,euro,1,EUR,24.315
+2025-10-01,Hongkong,dollar,1,HKD,2.666
+2025-10-01,Hungary,forint,100,HUF,6.218
+2025-10-01,Iceland,krona,100,ISK,16.956
+2025-10-01,IMF,SDR,1,XDR,28.414
+2025-10-01,India,rupee,100,INR,23.506
+2025-10-01,Indonesia,rupiah,1000,IDR,1.267
+2025-10-01,Israel,new shekel,1,ILS,6.225
+2025-10-01,Japan,yen,100,JPY,14.028
+2025-10-01,Malaysia,ringgit,1,MYR,4.934
+2025-10-01,Mexico,peso,1,MXN,1.123
+2025-10-01,New Zealand,dollar,1,NZD,12.341
+2025-10-01,Norway,krone,1,NOK,2.1
+2025-10-01,Philippines,peso,100,PHP,36.321
+2025-10-01,Poland,zloty,1,PLN,5.712
+2025-10-01,Romania,leu,1,RON,4.795
+2025-10-01,Singapore,dollar,1,SGD,16.162
+2025-10-01,South Africa,rand,1,ZAR,1.194
+2025-10-01,South Korea,won,100,KRW,1.491
+2025-10-01,Sweden,krona,1,SEK,2.221
+2025-10-01,Switzerland,franc,1,CHF,26.016
+2025-10-01,Thailand,baht,100,THB,65.362
+2025-10-01,Turkey,lira,100,TRY,50.307
+2025-10-01,United Kingdom,pound,1,GBP,28.1
+2025-10-01,USA,dollar,1,USD,20.749
+2025-10-01,Australia,dollar,1,AUD,13.779
+2025-10-01,Brazil,real,1,BRL,3.843
+2025-10-01,Bulgaria,lev,1,BGN,12.432
+2025-10-01,Canada,dollar,1,CAD,14.983
+2025-10-01,China,renminbi,1,CNY,2.913
+2025-10-01,Denmark,krone,1,DKK,3.257
+2025-10-01,EMU,euro,1,EUR,24.315
+2025-10-01,Hongkong,dollar,1,HKD,2.666
+2025-10-01,Hungary,forint,100,HUF,6.218
+2025-10-01,Iceland,krona,100,ISK,16.956
+2025-10-01,IMF,SDR,1,XDR,28.414
+2025-10-01,India,rupee,100,INR,23.506
+2025-10-01,Indonesia,rupiah,1000,IDR,1.267
+2025-10-01,Israel,new shekel,1,ILS,6.225
+2025-10-01,Japan,yen,100,JPY,14.028
+2025-10-01,Malaysia,ringgit,1,MYR,4.934
+2025-10-01,Mexico,peso,1,MXN,1.123
+2025-10-01,New Zealand,dollar,1,NZD,12.341
+2025-10-01,Norway,krone,1,NOK,2.1
+2025-10-01,Philippines,peso,100,PHP,36.321
+2025-10-01,Poland,zloty,1,PLN,5.712
+2025-10-01,Romania,leu,1,RON,4.795
+2025-10-01,Singapore,dollar,1,SGD,16.162
+2025-10-01,South Africa,rand,1,ZAR,1.194
+2025-10-01,South Korea,won,100,KRW,1.491
+2025-10-01,Sweden,krona,1,SEK,2.221
+2025-10-01,Switzerland,franc,1,CHF,26.016
+2025-10-01,Thailand,baht,100,THB,65.362
+2025-10-01,Turkey,lira,100,TRY,50.307
+2025-10-01,United Kingdom,pound,1,GBP,28.1
+2025-10-01,USA,dollar,1,USD,20.749
+2025-10-01,Australia,dollar,1,AUD,13.779
+2025-10-01,Brazil,real,1,BRL,3.843
+2025-10-01,Bulgaria,lev,1,BGN,12.432
+2025-10-01,Canada,dollar,1,CAD,14.983
+2025-10-01,China,renminbi,1,CNY,2.913
+2025-10-01,Denmark,krone,1,DKK,3.257
+2025-10-01,EMU,euro,1,EUR,24.315
+2025-10-01,Hongkong,dollar,1,HKD,2.666
+2025-10-01,Hungary,forint,100,HUF,6.218
+2025-10-01,Iceland,krona,100,ISK,16.956
+2025-10-01,IMF,SDR,1,XDR,28.414
+2025-10-01,India,rupee,100,INR,23.506
+2025-10-01,Indonesia,rupiah,1000,IDR,1.267
+2025-10-01,Israel,new shekel,1,ILS,6.225
+2025-10-01,Japan,yen,100,JPY,14.028
+2025-10-01,Malaysia,ringgit,1,MYR,4.934
+2025-10-01,Mexico,peso,1,MXN,1.123
+2025-10-01,New Zealand,dollar,1,NZD,12.341
+2025-10-01,Norway,krone,1,NOK,2.1
+2025-10-01,Philippines,peso,100,PHP,36.321
+2025-10-01,Poland,zloty,1,PLN,5.712
+2025-10-01,Romania,leu,1,RON,4.795
+2025-10-01,Singapore,dollar,1,SGD,16.162
+2025-10-01,South Africa,rand,1,ZAR,1.194
+2025-10-01,South Korea,won,100,KRW,1.491
+2025-10-01,Sweden,krona,1,SEK,2.221
+2025-10-01,Switzerland,franc,1,CHF,26.016
+2025-10-01,Thailand,baht,100,THB,65.362
+2025-10-01,Turkey,lira,100,TRY,50.307
+2025-10-01,United Kingdom,pound,1,GBP,28.1
+2025-10-01,USA,dollar,1,USD,20.749
+2025-10-01,Australia,dollar,1,AUD,13.772
+2025-10-01,Brazil,real,1,BRL,3.875
+2025-10-01,Bulgaria,lev,1,BGN,12.438
+2025-10-01,Canada,dollar,1,CAD,14.957
+2025-10-01,China,renminbi,1,CNY,2.903
+2025-10-01,Denmark,krone,1,DKK,3.259
+2025-10-01,EMU,euro,1,EUR,24.325
+2025-10-01,Hongkong,dollar,1,HKD,2.658
+2025-10-01,Hungary,forint,100,HUF,6.237
+2025-10-01,Iceland,krona,100,ISK,16.987
+2025-10-01,IMF,SDR,1,XDR,28.36
+2025-10-01,India,rupee,100,INR,23.451
+2025-10-01,Indonesia,rupiah,1000,IDR,1.26
+2025-10-01,Israel,new shekel,1,ILS,6.186
+2025-10-01,Japan,yen,100,JPY,14.028
+2025-10-01,Malaysia,ringgit,1,MYR,4.916
+2025-10-01,Mexico,peso,1,MXN,1.122
+2025-10-01,New Zealand,dollar,1,NZD,12.333
+2025-10-01,Norway,krone,1,NOK,2.105
+2025-10-01,Philippines,peso,100,PHP,36.157
+2025-10-01,Poland,zloty,1,PLN,5.724
+2025-10-01,Romania,leu,1,RON,4.804
+2025-10-01,Singapore,dollar,1,SGD,16.14
+2025-10-01,South Africa,rand,1,ZAR,1.193
+2025-10-01,South Korea,won,100,KRW,1.489
+2025-10-01,Sweden,krona,1,SEK,2.23
+2025-10-01,Switzerland,franc,1,CHF,26.004
+2025-10-01,Thailand,baht,100,THB,64.877
+2025-10-01,Turkey,lira,100,TRY,50.08
+2025-10-01,United Kingdom,pound,1,GBP,28.146
+2025-10-01,USA,dollar,1,USD,20.673
+2025-10-01,Australia,dollar,1,AUD,13.746
+2025-10-01,Brazil,real,1,BRL,3.881
+2025-10-01,Bulgaria,lev,1,BGN,12.438
+2025-10-01,Canada,dollar,1,CAD,14.988
+2025-10-01,China,renminbi,1,CNY,2.897
+2025-10-01,Denmark,krone,1,DKK,3.259
+2025-10-01,EMU,euro,1,EUR,24.325
+2025-10-01,Hongkong,dollar,1,HKD,2.648
+2025-10-01,Hungary,forint,100,HUF,6.239
+2025-10-01,Iceland,krona,100,ISK,16.987
+2025-10-01,IMF,SDR,1,XDR,28.299
+2025-10-01,India,rupee,100,INR,23.401
+2025-10-01,Indonesia,rupiah,1000,IDR,1.254
+2025-10-01,Israel,new shekel,1,ILS,6.162
+2025-10-01,Japan,yen,100,JPY,14.017
+2025-10-01,Malaysia,ringgit,1,MYR,4.901
+2025-10-01,Mexico,peso,1,MXN,1.123
+2025-10-01,New Zealand,dollar,1,NZD,12.313
+2025-10-01,Norway,krone,1,NOK,2.1
+2025-10-01,Philippines,peso,100,PHP,36.211
+2025-10-01,Poland,zloty,1,PLN,5.722
+2025-10-01,Romania,leu,1,RON,4.802
+2025-10-01,Singapore,dollar,1,SGD,16.124
+2025-10-01,South Africa,rand,1,ZAR,1.187
+2025-10-01,South Korea,won,100,KRW,1.491
+2025-10-01,Sweden,krona,1,SEK,2.227
+2025-10-01,Switzerland,franc,1,CHF,26.056
+2025-10-01,Thailand,baht,100,THB,64.997
+2025-10-01,Turkey,lira,100,TRY,49.96
+2025-10-01,United Kingdom,pound,1,GBP,28.107
+2025-10-01,USA,dollar,1,USD,20.609
+2025-10-01,Australia,dollar,1,AUD,13.724
+2025-10-01,Brazil,real,1,BRL,3.879
+2025-10-01,Bulgaria,lev,1,BGN,12.44
+2025-10-01,Canada,dollar,1,CAD,14.943
+2025-10-01,China,renminbi,1,CNY,2.893
+2025-10-01,Denmark,krone,1,DKK,3.26
+2025-10-01,EMU,euro,1,EUR,24.33
+2025-10-01,Hongkong,dollar,1,HKD,2.643
+2025-10-01,Hungary,forint,100,HUF,6.237
+2025-10-01,Iceland,krona,100,ISK,17.038
+2025-10-01,IMF,SDR,1,XDR,28.28
+2025-10-01,India,rupee,100,INR,23.397
+2025-10-01,Indonesia,rupiah,1000,IDR,1.251
+2025-10-01,Israel,new shekel,1,ILS,6.146
+2025-10-01,Japan,yen,100,JPY,14.037
+2025-10-01,Malaysia,ringgit,1,MYR,4.907
+2025-10-01,Mexico,peso,1,MXN,1.124
+2025-10-01,New Zealand,dollar,1,NZD,12.293
+2025-10-01,Norway,krone,1,NOK,2.093
+2025-10-01,Philippines,peso,100,PHP,36.15
+2025-10-01,Poland,zloty,1,PLN,5.72
+2025-10-01,Romania,leu,1,RON,4.802
+2025-10-01,Singapore,dollar,1,SGD,16.1
+2025-10-01,South Africa,rand,1,ZAR,1.182
+2025-10-01,South Korea,won,100,KRW,1.491
+2025-10-01,Sweden,krona,1,SEK,2.219
+2025-10-01,Switzerland,franc,1,CHF,26.102
+2025-10-01,Thailand,baht,100,THB,64.73
+2025-10-01,Turkey,lira,100,TRY,49.778
+2025-10-01,United Kingdom,pound,1,GBP,28.049
+2025-10-01,USA,dollar,1,USD,20.555
+2025-10-01,Australia,dollar,1,AUD,13.669
+2025-10-01,Brazil,real,1,BRL,3.894
+2025-10-01,Bulgaria,lev,1,BGN,12.426
+2025-10-01,Canada,dollar,1,CAD,14.919
+2025-10-01,China,renminbi,1,CNY,2.894
+2025-10-01,Denmark,krone,1,DKK,3.255
+2025-10-01,EMU,euro,1,EUR,24.3
+2025-10-01,Hongkong,dollar,1,HKD,2.644
+2025-10-01,Hungary,forint,100,HUF,6.255
+2025-10-01,Iceland,krona,100,ISK,16.946
+2025-10-01,IMF,SDR,1,XDR,28.33
+2025-10-01,India,rupee,100,INR,23.334
+2025-10-01,Indonesia,rupiah,1000,IDR,1.246
+2025-10-01,Israel,new shekel,1,ILS,6.163
+2025-10-01,Japan,yen,100,JPY,13.949
+2025-10-01,Malaysia,ringgit,1,MYR,4.901
+2025-10-01,Mexico,peso,1,MXN,1.127
+2025-10-01,New Zealand,dollar,1,NZD,12.135
+2025-10-01,Norway,krone,1,NOK,2.096
+2025-10-01,Philippines,peso,100,PHP,36.033
+2025-10-01,Poland,zloty,1,PLN,5.709
+2025-10-01,Romania,leu,1,RON,4.794
+2025-10-01,Singapore,dollar,1,SGD,16.066
+2025-10-01,South Africa,rand,1,ZAR,1.184
+2025-10-01,South Korea,won,100,KRW,1.483
+2025-10-01,Sweden,krona,1,SEK,2.209
+2025-10-01,Switzerland,franc,1,CHF,26.044
+2025-10-01,Thailand,baht,100,THB,64.606
+2025-10-01,Turkey,lira,100,TRY,49.789
+2025-10-01,United Kingdom,pound,1,GBP,28.001
+2025-10-01,USA,dollar,1,USD,20.563
+2025-10-01,Australia,dollar,1,AUD,13.646
+2025-10-01,Brazil,real,1,BRL,3.881
+2025-10-01,Bulgaria,lev,1,BGN,12.422
+2025-10-01,Canada,dollar,1,CAD,14.978
+2025-10-01,China,renminbi,1,CNY,2.908
+2025-10-01,Denmark,krone,1,DKK,3.255
+2025-10-01,EMU,euro,1,EUR,24.295
+2025-10-01,Hongkong,dollar,1,HKD,2.661
+2025-10-01,Hungary,forint,100,HUF,6.218
+2025-10-01,Iceland,krona,100,ISK,16.99
+2025-10-01,IMF,SDR,1,XDR,28.493
+2025-10-01,India,rupee,100,INR,23.472
+2025-10-01,Indonesia,rupiah,1000,IDR,1.247
+2025-10-01,Israel,new shekel,1,ILS,6.201
+2025-10-01,Japan,yen,100,JPY,13.977
+2025-10-01,Malaysia,ringgit,1,MYR,4.918
+2025-10-01,Mexico,peso,1,MXN,1.123
+2025-10-01,New Zealand,dollar,1,NZD,12.132
+2025-10-01,Norway,krone,1,NOK,2.082
+2025-10-01,Philippines,peso,100,PHP,36.225
+2025-10-01,Poland,zloty,1,PLN,5.698
+2025-10-01,Romania,leu,1,RON,4.788
+2025-10-01,Singapore,dollar,1,SGD,16.104
+2025-10-01,South Africa,rand,1,ZAR,1.19
+2025-10-01,South Korea,won,100,KRW,1.48
+2025-10-01,Sweden,krona,1,SEK,2.194
+2025-10-01,Switzerland,franc,1,CHF,25.997
+2025-10-01,Thailand,baht,100,THB,64.874
+2025-10-01,Turkey,lira,100,TRY,49.984
+2025-10-01,United Kingdom,pound,1,GBP,27.891
+2025-10-01,USA,dollar,1,USD,20.691
+2025-10-01,Australia,dollar,1,AUD,13.646
+2025-10-01,Brazil,real,1,BRL,3.881
+2025-10-01,Bulgaria,lev,1,BGN,12.422
+2025-10-01,Canada,dollar,1,CAD,14.978
+2025-10-01,China,renminbi,1,CNY,2.908
+2025-10-01,Denmark,krone,1,DKK,3.255
+2025-10-01,EMU,euro,1,EUR,24.295
+2025-10-01,Hongkong,dollar,1,HKD,2.661
+2025-10-01,Hungary,forint,100,HUF,6.218
+2025-10-01,Iceland,krona,100,ISK,16.99
+2025-10-01,IMF,SDR,1,XDR,28.493
+2025-10-01,India,rupee,100,INR,23.472
+2025-10-01,Indonesia,rupiah,1000,IDR,1.247
+2025-10-01,Israel,new shekel,1,ILS,6.201
+2025-10-01,Japan,yen,100,JPY,13.977
+2025-10-01,Malaysia,ringgit,1,MYR,4.918
+2025-10-01,Mexico,peso,1,MXN,1.123
+2025-10-01,New Zealand,dollar,1,NZD,12.132
+2025-10-01,Norway,krone,1,NOK,2.082
+2025-10-01,Philippines,peso,100,PHP,36.225
+2025-10-01,Poland,zloty,1,PLN,5.698
+2025-10-01,Romania,leu,1,RON,4.788
+2025-10-01,Singapore,dollar,1,SGD,16.104
+2025-10-01,South Africa,rand,1,ZAR,1.19
+2025-10-01,South Korea,won,100,KRW,1.48
+2025-10-01,Sweden,krona,1,SEK,2.194
+2025-10-01,Switzerland,franc,1,CHF,25.997
+2025-10-01,Thailand,baht,100,THB,64.874
+2025-10-01,Turkey,lira,100,TRY,49.984
+2025-10-01,United Kingdom,pound,1,GBP,27.891
+2025-10-01,USA,dollar,1,USD,20.691
+2025-10-01,Australia,dollar,1,AUD,13.646
+2025-10-01,Brazil,real,1,BRL,3.881
+2025-10-01,Bulgaria,lev,1,BGN,12.422
+2025-10-01,Canada,dollar,1,CAD,14.978
+2025-10-01,China,renminbi,1,CNY,2.908
+2025-10-01,Denmark,krone,1,DKK,3.255
+2025-10-01,EMU,euro,1,EUR,24.295
+2025-10-01,Hongkong,dollar,1,HKD,2.661
+2025-10-01,Hungary,forint,100,HUF,6.218
+2025-10-01,Iceland,krona,100,ISK,16.99
+2025-10-01,IMF,SDR,1,XDR,28.493
+2025-10-01,India,rupee,100,INR,23.472
+2025-10-01,Indonesia,rupiah,1000,IDR,1.247
+2025-10-01,Israel,new shekel,1,ILS,6.201
+2025-10-01,Japan,yen,100,JPY,13.977
+2025-10-01,Malaysia,ringgit,1,MYR,4.918
+2025-10-01,Mexico,peso,1,MXN,1.123
+2025-10-01,New Zealand,dollar,1,NZD,12.132
+2025-10-01,Norway,krone,1,NOK,2.082
+2025-10-01,Philippines,peso,100,PHP,36.225
+2025-10-01,Poland,zloty,1,PLN,5.698
+2025-10-01,Romania,leu,1,RON,4.788
+2025-10-01,Singapore,dollar,1,SGD,16.104
+2025-10-01,South Africa,rand,1,ZAR,1.19
+2025-10-01,South Korea,won,100,KRW,1.48
+2025-10-01,Sweden,krona,1,SEK,2.194
+2025-10-01,Switzerland,franc,1,CHF,25.997
+2025-10-01,Thailand,baht,100,THB,64.874
+2025-10-01,Turkey,lira,100,TRY,49.984
+2025-10-01,United Kingdom,pound,1,GBP,27.891
+2025-10-01,USA,dollar,1,USD,20.691
+2025-10-01,Australia,dollar,1,AUD,13.574
+2025-10-01,Brazil,real,1,BRL,3.855
+2025-10-01,Bulgaria,lev,1,BGN,12.377
+2025-10-01,Canada,dollar,1,CAD,14.904
+2025-10-01,China,renminbi,1,CNY,2.894
+2025-10-01,Denmark,krone,1,DKK,3.249
+2025-10-01,EMU,euro,1,EUR,24.25
+2025-10-01,Hongkong,dollar,1,HKD,2.649
+2025-10-01,Hungary,forint,100,HUF,6.233
+2025-10-01,Iceland,krona,100,ISK,16.982
+2025-10-01,IMF,SDR,1,XDR,28.245
+2025-10-01,India,rupee,100,INR,23.315
+2025-10-01,Indonesia,rupiah,1000,IDR,1.24
+2025-10-01,Israel,new shekel,1,ILS,6.137
+2025-10-01,Japan,yen,100,JPY,13.921
+2025-10-01,Malaysia,ringgit,1,MYR,4.898
+2025-10-01,Mexico,peso,1,MXN,1.119
+2025-10-01,New Zealand,dollar,1,NZD,12.058
+2025-10-01,Norway,krone,1,NOK,2.072
+2025-10-01,Philippines,peso,100,PHP,36.188
+2025-10-01,Poland,zloty,1,PLN,5.695
+2025-10-01,Romania,leu,1,RON,4.778
+2025-10-01,Singapore,dollar,1,SGD,16.044
+2025-10-01,South Africa,rand,1,ZAR,1.19
+2025-10-01,South Korea,won,100,KRW,1.479
+2025-10-01,Sweden,krona,1,SEK,2.194
+2025-10-01,Switzerland,franc,1,CHF,25.94
+2025-10-01,Thailand,baht,100,THB,64.768
+2025-10-01,Turkey,lira,100,TRY,49.776
+2025-10-01,United Kingdom,pound,1,GBP,27.78
+2025-10-01,USA,dollar,1,USD,20.582
+2025-10-01,Australia,dollar,1,AUD,13.576
+2025-10-01,Brazil,real,1,BRL,3.846
+2025-10-01,Bulgaria,lev,1,BGN,12.391
+2025-10-01,Canada,dollar,1,CAD,14.861
+2025-10-01,China,renminbi,1,CNY,2.89
+2025-10-01,Denmark,krone,1,DKK,3.247
+2025-10-01,EMU,euro,1,EUR,24.235
+2025-10-01,Hongkong,dollar,1,HKD,2.643
+2025-10-01,Hungary,forint,100,HUF,6.227
+2025-10-01,Iceland,krona,100,ISK,16.995
+2025-10-01,IMF,SDR,1,XDR,28.217
+2025-10-01,India,rupee,100,INR,23.149
+2025-10-01,Indonesia,rupiah,1000,IDR,1.233
+2025-10-01,Israel,new shekel,1,ILS,6.147
+2025-10-01,Japan,yen,100,JPY,13.906
+2025-10-01,Malaysia,ringgit,1,MYR,4.895
+2025-10-01,Mexico,peso,1,MXN,1.121
+2025-10-01,New Zealand,dollar,1,NZD,12.047
+2025-10-01,Norway,krone,1,NOK,2.077
+2025-10-01,Philippines,peso,100,PHP,35.893
+2025-10-01,Poland,zloty,1,PLN,5.695
+2025-10-01,Romania,leu,1,RON,4.773
+2025-10-01,Singapore,dollar,1,SGD,16.011
+2025-10-01,South Africa,rand,1,ZAR,1.186
+2025-10-01,South Korea,won,100,KRW,1.474
+2025-10-01,Sweden,krona,1,SEK,2.204
+2025-10-01,Switzerland,franc,1,CHF,25.94
+2025-10-01,Thailand,baht,100,THB,64.51
+2025-10-01,Turkey,lira,100,TRY,49.63
+2025-10-01,United Kingdom,pound,1,GBP,27.772
+2025-10-01,USA,dollar,1,USD,20.552
+2025-10-01,Australia,dollar,1,AUD,13.649
+2025-10-01,Brazil,real,1,BRL,3.9
+2025-10-01,Bulgaria,lev,1,BGN,12.414
+2025-10-01,Canada,dollar,1,CAD,14.893
+2025-10-01,China,renminbi,1,CNY,2.899
+2025-10-01,Denmark,krone,1,DKK,3.253
+2025-10-01,EMU,euro,1,EUR,24.28
+2025-10-01,Hongkong,dollar,1,HKD,2.656
+2025-10-01,Hungary,forint,100,HUF,6.211
+2025-10-01,Iceland,krona,100,ISK,17.051
+2025-10-01,IMF,SDR,1,XDR,28.381
+2025-10-01,India,rupee,100,INR,23.283
+2025-10-01,Indonesia,rupiah,1000,IDR,1.239
+2025-10-01,Israel,new shekel,1,ILS,6.165
+2025-10-01,Japan,yen,100,JPY,13.911
+2025-10-01,Malaysia,ringgit,1,MYR,4.907
+2025-10-01,Mexico,peso,1,MXN,1.122
+2025-10-01,New Zealand,dollar,1,NZD,12.06
+2025-10-01,Norway,krone,1,NOK,2.077
+2025-10-01,Philippines,peso,100,PHP,35.939
+2025-10-01,Poland,zloty,1,PLN,5.69
+2025-10-01,Romania,leu,1,RON,4.783
+2025-10-01,Singapore,dollar,1,SGD,16.051
+2025-10-01,South Africa,rand,1,ZAR,1.194
+2025-10-01,South Korea,won,100,KRW,1.476
+2025-10-01,Sweden,krona,1,SEK,2.201
+2025-10-01,Switzerland,franc,1,CHF,26.011
+2025-10-01,Thailand,baht,100,THB,64.494
+2025-10-01,Turkey,lira,100,TRY,49.885
+2025-10-01,United Kingdom,pound,1,GBP,27.815
+2025-10-01,USA,dollar,1,USD,20.657
+2025-10-01,Australia,dollar,1,AUD,13.624
+2025-10-01,Brazil,real,1,BRL,3.892
+2025-10-01,Bulgaria,lev,1,BGN,12.419
+2025-10-01,Canada,dollar,1,CAD,14.898
+2025-10-01,China,renminbi,1,CNY,2.906
+2025-10-01,Denmark,krone,1,DKK,3.254
+2025-10-01,EMU,euro,1,EUR,24.29
+2025-10-01,Hongkong,dollar,1,HKD,2.661
+2025-10-01,Hungary,forint,100,HUF,6.216
+2025-10-01,Iceland,krona,100,ISK,17.058
+2025-10-01,IMF,SDR,1,XDR,28.384
+2025-10-01,India,rupee,100,INR,23.341
+2025-10-01,Indonesia,rupiah,1000,IDR,1.237
+2025-10-01,Israel,new shekel,1,ILS,6.189
+2025-10-01,Japan,yen,100,JPY,13.909
+2025-10-01,Malaysia,ringgit,1,MYR,4.916
+2025-10-01,Mexico,peso,1,MXN,1.123
+2025-10-01,New Zealand,dollar,1,NZD,12.028
+2025-10-01,Norway,krone,1,NOK,2.08
+2025-10-01,Philippines,peso,100,PHP,35.573
+2025-10-01,Poland,zloty,1,PLN,5.696
+2025-10-01,Romania,leu,1,RON,4.785
+2025-10-01,Singapore,dollar,1,SGD,16.054
+2025-10-01,South Africa,rand,1,ZAR,1.193
+2025-10-01,South Korea,won,100,KRW,1.474
+2025-10-01,Sweden,krona,1,SEK,2.199
+2025-10-01,Switzerland,franc,1,CHF,25.996
+2025-10-01,Thailand,baht,100,THB,64.316
+2025-10-01,Turkey,lira,100,TRY,49.963
+2025-10-01,United Kingdom,pound,1,GBP,27.775
+2025-10-01,USA,dollar,1,USD,20.701
+2025-10-01,Australia,dollar,1,AUD,13.604
+2025-10-01,Brazil,real,1,BRL,3.89
+2025-10-01,Bulgaria,lev,1,BGN,12.439
+2025-10-01,Canada,dollar,1,CAD,14.941
+2025-10-01,China,renminbi,1,CNY,2.92
+2025-10-01,Denmark,krone,1,DKK,3.26
+2025-10-01,EMU,euro,1,EUR,24.33
+2025-10-01,Hongkong,dollar,1,HKD,2.678
+2025-10-01,Hungary,forint,100,HUF,6.214
+2025-10-01,Iceland,krona,100,ISK,17.134
+2025-10-01,IMF,SDR,1,XDR,28.56
+2025-10-01,India,rupee,100,INR,23.49
+2025-10-01,Indonesia,rupiah,1000,IDR,1.246
+2025-10-01,Israel,new shekel,1,ILS,6.191
+2025-10-01,Japan,yen,100,JPY,13.919
+2025-10-01,Malaysia,ringgit,1,MYR,4.936
+2025-10-01,Mexico,peso,1,MXN,1.128
+2025-10-01,New Zealand,dollar,1,NZD,12.009
+2025-10-01,Norway,krone,1,NOK,2.077
+2025-10-01,Philippines,peso,100,PHP,35.831
+2025-10-01,Poland,zloty,1,PLN,5.696
+2025-10-01,Romania,leu,1,RON,4.791
+2025-10-01,Singapore,dollar,1,SGD,16.112
+2025-10-01,South Africa,rand,1,ZAR,1.194
+2025-10-01,South Korea,won,100,KRW,1.478
+2025-10-01,Sweden,krona,1,SEK,2.204
+2025-10-01,Switzerland,franc,1,CHF,26.073
+2025-10-01,Thailand,baht,100,THB,64.622
+2025-10-01,Turkey,lira,100,TRY,50.268
+2025-10-01,United Kingdom,pound,1,GBP,27.834
+2025-10-01,USA,dollar,1,USD,20.839
+2025-10-01,Australia,dollar,1,AUD,13.604
+2025-10-01,Brazil,real,1,BRL,3.89
+2025-10-01,Bulgaria,lev,1,BGN,12.439
+2025-10-01,Canada,dollar,1,CAD,14.941
+2025-10-01,China,renminbi,1,CNY,2.92
+2025-10-01,Denmark,krone,1,DKK,3.26
+2025-10-01,EMU,euro,1,EUR,24.33
+2025-10-01,Hongkong,dollar,1,HKD,2.678
+2025-10-01,Hungary,forint,100,HUF,6.214
+2025-10-01,Iceland,krona,100,ISK,17.134
+2025-10-01,IMF,SDR,1,XDR,28.56
+2025-10-01,India,rupee,100,INR,23.49
+2025-10-01,Indonesia,rupiah,1000,IDR,1.246
+2025-10-01,Israel,new shekel,1,ILS,6.191
+2025-10-01,Japan,yen,100,JPY,13.919
+2025-10-01,Malaysia,ringgit,1,MYR,4.936
+2025-10-01,Mexico,peso,1,MXN,1.128
+2025-10-01,New Zealand,dollar,1,NZD,12.009
+2025-10-01,Norway,krone,1,NOK,2.077
+2025-10-01,Philippines,peso,100,PHP,35.831
+2025-10-01,Poland,zloty,1,PLN,5.696
+2025-10-01,Romania,leu,1,RON,4.791
+2025-10-01,Singapore,dollar,1,SGD,16.112
+2025-10-01,South Africa,rand,1,ZAR,1.194
+2025-10-01,South Korea,won,100,KRW,1.478
+2025-10-01,Sweden,krona,1,SEK,2.204
+2025-10-01,Switzerland,franc,1,CHF,26.073
+2025-10-01,Thailand,baht,100,THB,64.622
+2025-10-01,Turkey,lira,100,TRY,50.268
+2025-10-01,United Kingdom,pound,1,GBP,27.834
+2025-10-01,USA,dollar,1,USD,20.839

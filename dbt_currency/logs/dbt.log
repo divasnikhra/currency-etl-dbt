@@ -1,0 +1,1195 @@
+[0m12:53:44.239434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001395723C2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013954ECDBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013958283ED0>]}
+
+
+============================== 12:53:44.249193 | b504a46a-af12-4a44-ae53-4134a57f2161 ==============================
+[0m12:53:44.249193 [info ] [MainThread]: Running with dbt=1.10.13
+[0m12:53:44.250507 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt seed', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'quiet': 'False', 'log_path': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency', 'static_parser': 'True', 'write_json': 'True'}
+[0m12:53:44.860644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b504a46a-af12-4a44-ae53-4134a57f2161', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013957600050>]}
+[0m12:53:45.048562 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b504a46a-af12-4a44-ae53-4134a57f2161', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001395811B130>]}
+[0m12:53:45.052845 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m12:53:45.939998 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m12:53:45.944801 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m12:53:45.945941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b504a46a-af12-4a44-ae53-4134a57f2161', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013958103950>]}
+[0m12:53:48.320762 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_currency.stg_currency_daily' (models\staging\stg_currency_daily.sql) depends on a node named 'currency_daily' which was not found
+[0m12:53:48.324202 [debug] [MainThread]: Command `dbt seed` failed at 12:53:48.323796 after 4.54 seconds
+[0m12:53:48.324920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013959A7C410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013959A7D8B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001395825FE70>]}
+[0m12:53:48.326111 [debug] [MainThread]: Flushing usage events
+[0m12:53:51.039772 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:53:56.462353 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBABAC2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEB883DBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBBBF7ED0>]}
+
+
+============================== 12:53:56.471122 | 728814e8-d835-47e2-a342-60f5d1c7fccf ==============================
+[0m12:53:56.471122 [info ] [MainThread]: Running with dbt=1.10.13
+[0m12:53:56.472715 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'empty': 'False', 'log_cache_events': 'False', 'log_path': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m12:53:56.949612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '728814e8-d835-47e2-a342-60f5d1c7fccf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBAF70050>]}
+[0m12:53:57.126383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '728814e8-d835-47e2-a342-60f5d1c7fccf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBBA8B130>]}
+[0m12:53:57.130533 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m12:53:57.978311 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m12:53:57.981951 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m12:53:57.983899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '728814e8-d835-47e2-a342-60f5d1c7fccf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBBA73950>]}
+[0m12:54:00.702036 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_currency.stg_currency_daily' (models\staging\stg_currency_daily.sql) depends on a node named 'currency_daily' which was not found
+[0m12:54:00.708488 [debug] [MainThread]: Command `dbt run` failed at 12:54:00.706757 after 4.68 seconds
+[0m12:54:00.709747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBD45C410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBD45D8B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBBBD3E70>]}
+[0m12:54:00.711096 [debug] [MainThread]: Flushing usage events
+[0m12:54:03.552885 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:54:09.057253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB50DCC2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB4EA4DBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB51E17ED0>]}
+
+
+============================== 12:54:09.067386 | 2bf3a4b9-0442-437a-8574-413dd80d2711 ==============================
+[0m12:54:09.067386 [info ] [MainThread]: Running with dbt=1.10.13
+[0m12:54:09.068512 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt test', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'empty': 'None', 'printer_width': '80', 'log_path': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m12:54:09.700849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2bf3a4b9-0442-437a-8574-413dd80d2711', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB51190050>]}
+[0m12:54:09.930811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2bf3a4b9-0442-437a-8574-413dd80d2711', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB51CAB130>]}
+[0m12:54:09.936896 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m12:54:10.878700 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m12:54:10.882072 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m12:54:10.883236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '2bf3a4b9-0442-437a-8574-413dd80d2711', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB51C93950>]}
+[0m12:54:13.336630 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_currency.stg_currency_daily' (models\staging\stg_currency_daily.sql) depends on a node named 'currency_daily' which was not found
+[0m12:54:13.340180 [debug] [MainThread]: Command `dbt test` failed at 12:54:13.339774 after 4.68 seconds
+[0m12:54:13.341468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB53664230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB53665040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB51DEFE70>]}
+[0m12:54:13.343258 [debug] [MainThread]: Flushing usage events
+[0m12:54:16.148059 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:05:18.819720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CACDA7C2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CACB6FDBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CACEACBED0>]}
+
+
+============================== 13:05:18.834412 | 418f52e4-b4e3-422b-883e-69d12eea7c3f ==============================
+[0m13:05:18.834412 [info ] [MainThread]: Running with dbt=1.10.13
+[0m13:05:18.836111 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt seed --profiles-dir .', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'empty': 'None', 'printer_width': '80', 'log_path': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency\\logs', 'indirect_selection': 'eager', 'profiles_dir': '.', 'static_parser': 'True', 'write_json': 'True'}
+[0m13:05:19.437925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '418f52e4-b4e3-422b-883e-69d12eea7c3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CACDE3C050>]}
+[0m13:05:19.569389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '418f52e4-b4e3-422b-883e-69d12eea7c3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CACE95B130>]}
+[0m13:05:19.573390 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m13:05:20.556834 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m13:05:20.559581 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m13:05:20.560544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '418f52e4-b4e3-422b-883e-69d12eea7c3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CACE947950>]}
+[0m13:05:23.298831 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_currency.marts
+[0m13:05:23.309510 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '418f52e4-b4e3-422b-883e-69d12eea7c3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAD036E6C0>]}
+[0m13:05:23.458848 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m13:05:23.480147 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m13:05:23.705299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '418f52e4-b4e3-422b-883e-69d12eea7c3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAD00EC670>]}
+[0m13:05:23.706757 [info ] [MainThread]: Found 2 models, 1 seed, 447 macros
+[0m13:05:23.708445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '418f52e4-b4e3-422b-883e-69d12eea7c3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAD03FFEE0>]}
+[0m13:05:23.713871 [info ] [MainThread]: 
+[0m13:05:23.716251 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:05:23.718011 [info ] [MainThread]: 
+[0m13:05:23.720909 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m13:05:23.725141 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m13:05:24.185498 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m13:05:24.186564 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m13:05:24.187526 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:05:24.362828 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.175 seconds
+[0m13:05:24.365233 [debug] [ThreadPool]: On list_postgres: Close
+[0m13:05:24.367606 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres, now create_postgres_msd_financial_dbt)
+[0m13:05:24.369474 [debug] [ThreadPool]: Creating schema "database: "postgres"
+schema: "msd_financial_dbt"
+"
+[0m13:05:24.379484 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt"
+[0m13:05:24.380668 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt: BEGIN
+[0m13:05:24.381648 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m13:05:24.508490 [debug] [ThreadPool]: SQL status: BEGIN in 0.127 seconds
+[0m13:05:24.509189 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt"
+[0m13:05:24.509601 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "create_postgres_msd_financial_dbt"} */
+create schema if not exists "msd_financial_dbt"
+[0m13:05:24.515795 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.006 seconds
+[0m13:05:24.517031 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt: COMMIT
+[0m13:05:24.517504 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt"
+[0m13:05:24.517846 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt: COMMIT
+[0m13:05:24.519834 [debug] [ThreadPool]: SQL status: COMMIT in 0.002 seconds
+[0m13:05:24.520262 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt: Close
+[0m13:05:24.530901 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_msd_financial_dbt'
+[0m13:05:24.545790 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt"
+[0m13:05:24.547125 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: BEGIN
+[0m13:05:24.547861 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:05:24.664539 [debug] [ThreadPool]: SQL status: BEGIN in 0.117 seconds
+[0m13:05:24.664939 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt"
+[0m13:05:24.665226 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres_msd_financial_dbt"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'msd_financial_dbt'
+  
+[0m13:05:24.682396 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.017 seconds
+[0m13:05:24.684090 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: ROLLBACK
+[0m13:05:24.684882 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: Close
+[0m13:05:24.685769 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres_msd_financial_dbt, now list_postgres_msd_financial_dbt_msd_financial_dbt)
+[0m13:05:24.687882 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m13:05:24.688268 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: BEGIN
+[0m13:05:24.688828 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m13:05:24.792071 [debug] [ThreadPool]: SQL status: BEGIN in 0.103 seconds
+[0m13:05:24.792475 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m13:05:24.792780 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres_msd_financial_dbt_msd_financial_dbt"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+  
+[0m13:05:24.802853 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.010 seconds
+[0m13:05:24.804190 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: ROLLBACK
+[0m13:05:24.805148 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: Close
+[0m13:05:24.814262 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:24.815337 [debug] [MainThread]: On master: BEGIN
+[0m13:05:24.816321 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:05:24.924841 [debug] [MainThread]: SQL status: BEGIN in 0.109 seconds
+[0m13:05:24.925221 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:24.925529 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m13:05:24.938289 [debug] [MainThread]: SQL status: SELECT 0 in 0.012 seconds
+[0m13:05:24.939431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '418f52e4-b4e3-422b-883e-69d12eea7c3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAD04E6390>]}
+[0m13:05:24.939892 [debug] [MainThread]: On master: ROLLBACK
+[0m13:05:24.940614 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:24.941110 [debug] [MainThread]: On master: BEGIN
+[0m13:05:24.942173 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m13:05:24.942656 [debug] [MainThread]: On master: COMMIT
+[0m13:05:24.943077 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:24.943483 [debug] [MainThread]: On master: COMMIT
+[0m13:05:24.944255 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m13:05:24.944601 [debug] [MainThread]: On master: Close
+[0m13:05:24.954629 [debug] [Thread-1 (]: Began running node seed.dbt_currency.currency_daily
+[0m13:05:24.956167 [info ] [Thread-1 (]: 1 of 1 START seed file msd_financial_dbt.currency_daily ........................ [RUN]
+[0m13:05:24.958062 [debug] [Thread-1 (]: Acquiring new postgres connection 'seed.dbt_currency.currency_daily'
+[0m13:05:24.959069 [debug] [Thread-1 (]: Began compiling node seed.dbt_currency.currency_daily
+[0m13:05:24.960072 [debug] [Thread-1 (]: Began executing node seed.dbt_currency.currency_daily
+[0m13:05:25.111422 [debug] [Thread-1 (]: Using postgres connection "seed.dbt_currency.currency_daily"
+[0m13:05:25.112557 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: BEGIN
+[0m13:05:25.113400 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m13:05:25.228671 [debug] [Thread-1 (]: SQL status: BEGIN in 0.115 seconds
+[0m13:05:25.229134 [debug] [Thread-1 (]: Using postgres connection "seed.dbt_currency.currency_daily"
+[0m13:05:25.229455 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "seed.dbt_currency.currency_daily"} */
+
+    create table "postgres"."msd_financial_dbt"."currency_daily" ("fetch_date" date,"country" text,"currency" text,"amount" integer,"currency_code" text,"rate" float8)
+  
+[0m13:05:25.241894 [debug] [Thread-1 (]: SQL status: CREATE TABLE in 0.012 seconds
+[0m13:05:26.473984 [debug] [Thread-1 (]: Using postgres connection "seed.dbt_currency.currency_daily"
+[0m13:05:26.474893 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: 
+          insert into "postgres"."msd_financial_dbt"."currency_daily" ("fetch_date", "country", "currency", "amount", "currency_code", "rate") values
+          (%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%...
+[0m13:05:26.508761 [debug] [Thread-1 (]: SQL status: INSERT 0 837 in 0.033 seconds
+[0m13:05:26.522954 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.dbt_currency.currency_daily"
+[0m13:05:26.562524 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: COMMIT
+[0m13:05:26.563376 [debug] [Thread-1 (]: Using postgres connection "seed.dbt_currency.currency_daily"
+[0m13:05:26.564107 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: COMMIT
+[0m13:05:26.567582 [debug] [Thread-1 (]: SQL status: COMMIT in 0.003 seconds
+[0m13:05:26.571185 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: Close
+[0m13:05:26.576977 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '418f52e4-b4e3-422b-883e-69d12eea7c3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAD068FEE0>]}
+[0m13:05:26.578235 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file msd_financial_dbt.currency_daily .................... [[32mINSERT 837[0m in 1.61s]
+[0m13:05:26.580403 [debug] [Thread-1 (]: Finished running node seed.dbt_currency.currency_daily
+[0m13:05:26.584382 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:26.585353 [debug] [MainThread]: On master: BEGIN
+[0m13:05:26.585941 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:05:26.688694 [debug] [MainThread]: SQL status: BEGIN in 0.103 seconds
+[0m13:05:26.689142 [debug] [MainThread]: On master: COMMIT
+[0m13:05:26.689420 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:26.689651 [debug] [MainThread]: On master: COMMIT
+[0m13:05:26.690110 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m13:05:26.690457 [debug] [MainThread]: On master: Close
+[0m13:05:26.690929 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:05:26.691186 [debug] [MainThread]: Connection 'create_postgres_msd_financial_dbt' was properly closed.
+[0m13:05:26.691390 [debug] [MainThread]: Connection 'list_postgres_msd_financial_dbt_msd_financial_dbt' was properly closed.
+[0m13:05:26.691576 [debug] [MainThread]: Connection 'seed.dbt_currency.currency_daily' was properly closed.
+[0m13:05:26.691860 [info ] [MainThread]: 
+[0m13:05:26.692547 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 2.97 seconds (2.97s).
+[0m13:05:26.693433 [debug] [MainThread]: Command end result
+[0m13:05:26.711271 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m13:05:26.714808 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m13:05:26.739263 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\run_results.json
+[0m13:05:26.740373 [info ] [MainThread]: 
+[0m13:05:26.742124 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:05:26.743544 [info ] [MainThread]: 
+[0m13:05:26.745175 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:05:26.750119 [debug] [MainThread]: Command `dbt seed` succeeded at 13:05:26.749487 after 8.37 seconds
+[0m13:05:26.752032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAD0937ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAD08876E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CACB93D850>]}
+[0m13:05:26.753884 [debug] [MainThread]: Flushing usage events
+[0m13:05:29.720025 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:05:33.300336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7DDCC2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7BA5DBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7EE1BED0>]}
+
+
+============================== 13:05:33.308042 | 70b14b71-3f86-4c8a-b86b-5244742e8584 ==============================
+[0m13:05:33.308042 [info ] [MainThread]: Running with dbt=1.10.13
+[0m13:05:33.309073 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': '.', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt run --profiles-dir .', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'False', 'quiet': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency\\logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m13:05:33.768727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '70b14b71-3f86-4c8a-b86b-5244742e8584', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7E18C050>]}
+[0m13:05:33.910785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '70b14b71-3f86-4c8a-b86b-5244742e8584', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7ECAB130>]}
+[0m13:05:33.914206 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m13:05:34.816241 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m13:05:35.225529 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:05:35.226498 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:05:35.236681 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_currency.marts
+[0m13:05:35.309626 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '70b14b71-3f86-4c8a-b86b-5244742e8584', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7F5D4150>]}
+[0m13:05:35.438352 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m13:05:35.446045 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m13:05:35.543787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '70b14b71-3f86-4c8a-b86b-5244742e8584', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7EC82D50>]}
+[0m13:05:35.544999 [info ] [MainThread]: Found 2 models, 1 seed, 447 macros
+[0m13:05:35.546175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '70b14b71-3f86-4c8a-b86b-5244742e8584', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7F2BBD90>]}
+[0m13:05:35.552971 [info ] [MainThread]: 
+[0m13:05:35.554107 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:05:35.555801 [info ] [MainThread]: 
+[0m13:05:35.557820 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m13:05:35.570114 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m13:05:35.934009 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m13:05:35.934944 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m13:05:35.935845 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:05:36.093201 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.157 seconds
+[0m13:05:36.095832 [debug] [ThreadPool]: On list_postgres: Close
+[0m13:05:36.100017 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m13:05:36.100983 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m13:05:36.101969 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m13:05:36.248805 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.147 seconds
+[0m13:05:36.251172 [debug] [ThreadPool]: On list_postgres: Close
+[0m13:05:36.252812 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres, now create_postgres_msd_financial_dbt_msd_financial_dbt)
+[0m13:05:36.253770 [debug] [ThreadPool]: Creating schema "database: "postgres"
+schema: "msd_financial_dbt_msd_financial_dbt"
+"
+[0m13:05:36.263134 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m13:05:36.263795 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt_msd_financial_dbt: BEGIN
+[0m13:05:36.264252 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m13:05:36.420697 [debug] [ThreadPool]: SQL status: BEGIN in 0.156 seconds
+[0m13:05:36.421465 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m13:05:36.422022 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "create_postgres_msd_financial_dbt_msd_financial_dbt"} */
+create schema if not exists "msd_financial_dbt_msd_financial_dbt"
+[0m13:05:36.425813 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.003 seconds
+[0m13:05:36.427633 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt_msd_financial_dbt: COMMIT
+[0m13:05:36.428272 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m13:05:36.428835 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt_msd_financial_dbt: COMMIT
+[0m13:05:36.431326 [debug] [ThreadPool]: SQL status: COMMIT in 0.002 seconds
+[0m13:05:36.432044 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt_msd_financial_dbt: Close
+[0m13:05:36.437575 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_msd_financial_dbt_msd_financial_dbt'
+[0m13:05:36.463579 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m13:05:36.467627 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: BEGIN
+[0m13:05:36.468419 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:05:36.706829 [debug] [ThreadPool]: SQL status: BEGIN in 0.238 seconds
+[0m13:05:36.707495 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m13:05:36.708015 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres_msd_financial_dbt_msd_financial_dbt"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+  
+[0m13:05:36.723489 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.015 seconds
+[0m13:05:36.725748 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: ROLLBACK
+[0m13:05:36.726863 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: Close
+[0m13:05:36.728015 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres_msd_financial_dbt_msd_financial_dbt, now list_postgres_msd_financial_dbt)
+[0m13:05:36.730992 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt"
+[0m13:05:36.731617 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: BEGIN
+[0m13:05:36.732123 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m13:05:36.958782 [debug] [ThreadPool]: SQL status: BEGIN in 0.227 seconds
+[0m13:05:36.959453 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt"
+[0m13:05:36.959962 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres_msd_financial_dbt"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'msd_financial_dbt'
+  
+[0m13:05:36.975814 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.015 seconds
+[0m13:05:36.977975 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: ROLLBACK
+[0m13:05:36.979007 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: Close
+[0m13:05:37.010702 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:37.011699 [debug] [MainThread]: On master: BEGIN
+[0m13:05:37.012408 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:05:37.237420 [debug] [MainThread]: SQL status: BEGIN in 0.225 seconds
+[0m13:05:37.238076 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:37.238686 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m13:05:37.255879 [debug] [MainThread]: SQL status: SELECT 0 in 0.017 seconds
+[0m13:05:37.257862 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '70b14b71-3f86-4c8a-b86b-5244742e8584', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7F95B930>]}
+[0m13:05:37.258604 [debug] [MainThread]: On master: ROLLBACK
+[0m13:05:37.259580 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:37.260212 [debug] [MainThread]: On master: BEGIN
+[0m13:05:37.261595 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m13:05:37.262168 [debug] [MainThread]: On master: COMMIT
+[0m13:05:37.262631 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:37.263082 [debug] [MainThread]: On master: COMMIT
+[0m13:05:37.263960 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m13:05:37.264544 [debug] [MainThread]: On master: Close
+[0m13:05:37.276664 [debug] [Thread-1 (]: Began running node model.dbt_currency.stg_currency_daily
+[0m13:05:37.278267 [info ] [Thread-1 (]: 1 of 2 START sql table model msd_financial_dbt_msd_financial_dbt.stg_currency_daily  [RUN]
+[0m13:05:37.284637 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.dbt_currency.stg_currency_daily'
+[0m13:05:37.287915 [debug] [Thread-1 (]: Began compiling node model.dbt_currency.stg_currency_daily
+[0m13:05:37.330219 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_currency.stg_currency_daily"
+[0m13:05:37.339619 [debug] [Thread-1 (]: Began executing node model.dbt_currency.stg_currency_daily
+[0m13:05:37.481212 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_currency.stg_currency_daily"
+[0m13:05:37.486181 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.stg_currency_daily"
+[0m13:05:37.487060 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: BEGIN
+[0m13:05:37.487949 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m13:05:37.689428 [debug] [Thread-1 (]: SQL status: BEGIN in 0.201 seconds
+[0m13:05:37.690200 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.stg_currency_daily"
+[0m13:05:37.690799 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.stg_currency_daily"} */
+
+  
+    
+
+  create  table "postgres"."msd_financial_dbt_msd_financial_dbt"."stg_currency_daily__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select
+    fetch_date,
+    country,
+    currency,
+    amount,
+    currency_code,
+    rate
+from "postgres"."msd_financial_dbt"."currency_daily"
+where rate is not null
+  );
+  
+[0m13:05:37.713149 [debug] [Thread-1 (]: SQL status: SELECT 837 in 0.022 seconds
+[0m13:05:37.730003 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.stg_currency_daily"
+[0m13:05:37.730794 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.stg_currency_daily"} */
+alter table "postgres"."msd_financial_dbt_msd_financial_dbt"."stg_currency_daily__dbt_tmp" rename to "stg_currency_daily"
+[0m13:05:37.734067 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.003 seconds
+[0m13:05:37.787177 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: COMMIT
+[0m13:05:37.788125 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.stg_currency_daily"
+[0m13:05:37.789004 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: COMMIT
+[0m13:05:37.792108 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m13:05:37.814255 [debug] [Thread-1 (]: Applying DROP to: "postgres"."msd_financial_dbt_msd_financial_dbt"."stg_currency_daily__dbt_backup"
+[0m13:05:37.827524 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.stg_currency_daily"
+[0m13:05:37.828626 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.stg_currency_daily"} */
+drop table if exists "postgres"."msd_financial_dbt_msd_financial_dbt"."stg_currency_daily__dbt_backup" cascade
+[0m13:05:37.833014 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.003 seconds
+[0m13:05:37.845965 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: Close
+[0m13:05:37.867992 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '70b14b71-3f86-4c8a-b86b-5244742e8584', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7F7DDCD0>]}
+[0m13:05:37.871921 [info ] [Thread-1 (]: 1 of 2 OK created sql table model msd_financial_dbt_msd_financial_dbt.stg_currency_daily  [[32mSELECT 837[0m in 0.57s]
+[0m13:05:37.877847 [debug] [Thread-1 (]: Finished running node model.dbt_currency.stg_currency_daily
+[0m13:05:37.880569 [debug] [Thread-1 (]: Began running node model.dbt_currency.currency_weekly
+[0m13:05:37.881662 [info ] [Thread-1 (]: 2 of 2 START sql table model msd_financial_dbt.currency_weekly ................. [RUN]
+[0m13:05:37.883661 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_currency.stg_currency_daily, now model.dbt_currency.currency_weekly)
+[0m13:05:37.884478 [debug] [Thread-1 (]: Began compiling node model.dbt_currency.currency_weekly
+[0m13:05:37.891712 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_currency.currency_weekly"
+[0m13:05:37.898704 [debug] [Thread-1 (]: Began executing node model.dbt_currency.currency_weekly
+[0m13:05:37.916363 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_currency.currency_weekly"
+[0m13:05:37.924411 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.currency_weekly"
+[0m13:05:37.925598 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: BEGIN
+[0m13:05:37.926501 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:05:38.234993 [debug] [Thread-1 (]: SQL status: BEGIN in 0.308 seconds
+[0m13:05:38.235770 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.currency_weekly"
+[0m13:05:38.236379 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.currency_weekly"} */
+
+  
+    
+
+  create  table "postgres"."msd_financial_dbt"."currency_weekly__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with daily as (
+    select *
+    from "postgres"."msd_financial_dbt_msd_financial_dbt"."stg_currency_daily"
+),
+
+agg as (
+    select
+        extract(isoyear from fetch_date)::int as iso_year,
+        extract(week from fetch_date)::int as iso_week,
+        currency_code,
+        avg(rate)::numeric(18,8) as avg_rate,
+        count(*) as sample_count,
+        min(fetch_date) as week_start_date
+    from daily
+    group by 1,2,3
+)
+
+select *
+from agg
+  );
+  
+[0m13:05:38.265453 [debug] [Thread-1 (]: SQL status: SELECT 31 in 0.028 seconds
+[0m13:05:38.270512 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.currency_weekly"
+[0m13:05:38.271245 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.currency_weekly"} */
+alter table "postgres"."msd_financial_dbt"."currency_weekly__dbt_tmp" rename to "currency_weekly"
+[0m13:05:38.273085 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m13:05:38.275622 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: COMMIT
+[0m13:05:38.276324 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.currency_weekly"
+[0m13:05:38.276957 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: COMMIT
+[0m13:05:38.280090 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m13:05:38.284271 [debug] [Thread-1 (]: Applying DROP to: "postgres"."msd_financial_dbt"."currency_weekly__dbt_backup"
+[0m13:05:38.285449 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.currency_weekly"
+[0m13:05:38.286102 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.currency_weekly"} */
+drop table if exists "postgres"."msd_financial_dbt"."currency_weekly__dbt_backup" cascade
+[0m13:05:38.287471 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.001 seconds
+[0m13:05:38.289807 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: Close
+[0m13:05:38.290925 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '70b14b71-3f86-4c8a-b86b-5244742e8584', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7F7E97B0>]}
+[0m13:05:38.292029 [info ] [Thread-1 (]: 2 of 2 OK created sql table model msd_financial_dbt.currency_weekly ............ [[32mSELECT 31[0m in 0.41s]
+[0m13:05:38.296441 [debug] [Thread-1 (]: Finished running node model.dbt_currency.currency_weekly
+[0m13:05:38.299857 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:38.306409 [debug] [MainThread]: On master: BEGIN
+[0m13:05:38.307243 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:05:38.559727 [debug] [MainThread]: SQL status: BEGIN in 0.252 seconds
+[0m13:05:38.560426 [debug] [MainThread]: On master: COMMIT
+[0m13:05:38.560999 [debug] [MainThread]: Using postgres connection "master"
+[0m13:05:38.561466 [debug] [MainThread]: On master: COMMIT
+[0m13:05:38.562448 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m13:05:38.563088 [debug] [MainThread]: On master: Close
+[0m13:05:38.563950 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:05:38.564495 [debug] [MainThread]: Connection 'create_postgres_msd_financial_dbt_msd_financial_dbt' was properly closed.
+[0m13:05:38.564901 [debug] [MainThread]: Connection 'list_postgres_msd_financial_dbt' was properly closed.
+[0m13:05:38.565278 [debug] [MainThread]: Connection 'model.dbt_currency.currency_weekly' was properly closed.
+[0m13:05:38.565808 [info ] [MainThread]: 
+[0m13:05:38.566828 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 3.01 seconds (3.01s).
+[0m13:05:38.573209 [debug] [MainThread]: Command end result
+[0m13:05:39.143458 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m13:05:39.158534 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m13:05:39.188762 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\run_results.json
+[0m13:05:39.189610 [info ] [MainThread]: 
+[0m13:05:39.192431 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:05:39.194843 [info ] [MainThread]: 
+[0m13:05:39.208835 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m13:05:39.224118 [debug] [MainThread]: Command `dbt run` succeeded at 13:05:39.223529 after 6.18 seconds
+[0m13:05:39.231518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7F3ECD70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7E6BF890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A7F99C050>]}
+[0m13:05:39.242388 [debug] [MainThread]: Flushing usage events
+[0m13:05:42.200422 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:05:45.594762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496C5DC2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496A26DBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496D62BED0>]}
+
+
+============================== 13:05:45.604010 | 52b626af-9ca6-444c-a705-10362b077b15 ==============================
+[0m13:05:45.604010 [info ] [MainThread]: Running with dbt=1.10.13
+[0m13:05:45.605222 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt test --profiles-dir .', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'printer_width': '80', 'quiet': 'False', 'empty': 'None', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency\\logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '.'}
+[0m13:05:45.854394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '52b626af-9ca6-444c-a705-10362b077b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496C99C050>]}
+[0m13:05:46.028023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '52b626af-9ca6-444c-a705-10362b077b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496D4BB130>]}
+[0m13:05:46.032717 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m13:05:47.630745 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m13:05:48.252090 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:05:48.252960 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:05:48.268359 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_currency.marts
+[0m13:05:48.411972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '52b626af-9ca6-444c-a705-10362b077b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496D4ABB50>]}
+[0m13:05:48.716780 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m13:05:48.728590 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m13:05:48.972328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '52b626af-9ca6-444c-a705-10362b077b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496EFE6120>]}
+[0m13:05:48.973503 [info ] [MainThread]: Found 2 models, 1 seed, 447 macros
+[0m13:05:48.974590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '52b626af-9ca6-444c-a705-10362b077b15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496F064E50>]}
+[0m13:05:48.977988 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:05:48.983583 [debug] [MainThread]: Command end result
+[0m13:05:49.042366 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m13:05:49.051865 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m13:05:49.065954 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\run_results.json
+[0m13:05:49.070514 [debug] [MainThread]: Command `dbt test` succeeded at 13:05:49.069875 after 3.74 seconds
+[0m13:05:49.072020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496F02FD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496D446210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002496EFCDB50>]}
+[0m13:05:49.073369 [debug] [MainThread]: Flushing usage events
+[0m13:05:51.952619 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:31:04.189871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D34FCC050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D30C5F250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D36FF3B10>]}
+
+
+============================== 15:31:04.201136 | 74e42fdd-0e7c-4ddc-8441-b55f6080d95f ==============================
+[0m15:31:04.201136 [info ] [MainThread]: Running with dbt=1.10.13
+[0m15:31:04.202801 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt seed --profiles-dir .', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'printer_width': '80', 'use_experimental_parser': 'False', 'quiet': 'False', 'log_path': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': '.'}
+[0m15:31:05.462535 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '74e42fdd-0e7c-4ddc-8441-b55f6080d95f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D35380B00>]}
+[0m15:31:05.694245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '74e42fdd-0e7c-4ddc-8441-b55f6080d95f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D35E9B790>]}
+[0m15:31:05.699863 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m15:31:07.036996 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m15:31:10.328637 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+[0m15:31:10.330299 [debug] [MainThread]: Partial parsing: added file: dbt_currency://models\marts\currency_weekly.sql
+[0m15:31:10.331222 [debug] [MainThread]: Partial parsing: deleted file: dbt_currency://models\mart\currency_weekly.sql
+[0m15:31:11.068486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '74e42fdd-0e7c-4ddc-8441-b55f6080d95f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D3775F650>]}
+[0m15:31:11.248260 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m15:31:11.256945 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m15:31:11.358272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '74e42fdd-0e7c-4ddc-8441-b55f6080d95f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D3715D9A0>]}
+[0m15:31:11.359837 [info ] [MainThread]: Found 2 models, 1 seed, 447 macros
+[0m15:31:11.361196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '74e42fdd-0e7c-4ddc-8441-b55f6080d95f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D37073CB0>]}
+[0m15:31:11.366283 [info ] [MainThread]: 
+[0m15:31:11.367999 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:31:11.369270 [info ] [MainThread]: 
+[0m15:31:11.371450 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m15:31:11.374567 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m15:31:19.043216 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m15:31:19.044182 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m15:31:19.044869 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:31:19.198355 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.153 seconds
+[0m15:31:19.201150 [debug] [ThreadPool]: On list_postgres: Close
+[0m15:31:19.203074 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres, now create_postgres_msd_financial_dbt)
+[0m15:31:19.203983 [debug] [ThreadPool]: Creating schema "database: "postgres"
+schema: "msd_financial_dbt"
+"
+[0m15:31:19.212955 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt"
+[0m15:31:19.213636 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt: BEGIN
+[0m15:31:19.214056 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:31:19.321751 [debug] [ThreadPool]: SQL status: BEGIN in 0.108 seconds
+[0m15:31:19.322360 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt"
+[0m15:31:19.322765 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "create_postgres_msd_financial_dbt"} */
+create schema if not exists "msd_financial_dbt"
+[0m15:31:19.330348 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.007 seconds
+[0m15:31:19.332033 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt: COMMIT
+[0m15:31:19.332543 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt"
+[0m15:31:19.333068 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt: COMMIT
+[0m15:31:19.335584 [debug] [ThreadPool]: SQL status: COMMIT in 0.002 seconds
+[0m15:31:19.336232 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt: Close
+[0m15:31:19.346642 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_msd_financial_dbt'
+[0m15:31:19.360041 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt"
+[0m15:31:19.361203 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: BEGIN
+[0m15:31:19.362201 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:31:19.487331 [debug] [ThreadPool]: SQL status: BEGIN in 0.125 seconds
+[0m15:31:19.488121 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt"
+[0m15:31:19.488720 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres_msd_financial_dbt"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'msd_financial_dbt'
+  
+[0m15:31:19.511498 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.022 seconds
+[0m15:31:19.514277 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: ROLLBACK
+[0m15:31:19.515265 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: Close
+[0m15:31:19.516272 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres_msd_financial_dbt, now list_postgres_msd_financial_dbt_msd_financial_dbt)
+[0m15:31:19.519787 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m15:31:19.520501 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: BEGIN
+[0m15:31:19.521097 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:31:19.640140 [debug] [ThreadPool]: SQL status: BEGIN in 0.119 seconds
+[0m15:31:19.640795 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m15:31:19.641228 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres_msd_financial_dbt_msd_financial_dbt"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+  
+[0m15:31:19.654639 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.013 seconds
+[0m15:31:19.657372 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: ROLLBACK
+[0m15:31:19.658213 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: Close
+[0m15:31:19.667897 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:19.668760 [debug] [MainThread]: On master: BEGIN
+[0m15:31:19.669697 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:31:19.793801 [debug] [MainThread]: SQL status: BEGIN in 0.124 seconds
+[0m15:31:19.794519 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:19.794973 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m15:31:19.814329 [debug] [MainThread]: SQL status: SELECT 0 in 0.019 seconds
+[0m15:31:19.816910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '74e42fdd-0e7c-4ddc-8441-b55f6080d95f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D37AB2EA0>]}
+[0m15:31:19.817548 [debug] [MainThread]: On master: ROLLBACK
+[0m15:31:19.818365 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:19.818734 [debug] [MainThread]: On master: BEGIN
+[0m15:31:19.819689 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m15:31:19.820076 [debug] [MainThread]: On master: COMMIT
+[0m15:31:19.820406 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:19.820797 [debug] [MainThread]: On master: COMMIT
+[0m15:31:19.821415 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m15:31:19.821787 [debug] [MainThread]: On master: Close
+[0m15:31:19.841853 [debug] [Thread-1 (]: Began running node seed.dbt_currency.currency_daily
+[0m15:31:19.843627 [info ] [Thread-1 (]: 1 of 1 START seed file msd_financial_dbt.currency_daily ........................ [RUN]
+[0m15:31:19.845454 [debug] [Thread-1 (]: Acquiring new postgres connection 'seed.dbt_currency.currency_daily'
+[0m15:31:19.846472 [debug] [Thread-1 (]: Began compiling node seed.dbt_currency.currency_daily
+[0m15:31:19.847891 [debug] [Thread-1 (]: Began executing node seed.dbt_currency.currency_daily
+[0m15:31:20.002357 [debug] [Thread-1 (]: Using postgres connection "seed.dbt_currency.currency_daily"
+[0m15:31:20.003677 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: BEGIN
+[0m15:31:20.004808 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:31:20.236943 [debug] [Thread-1 (]: SQL status: BEGIN in 0.232 seconds
+[0m15:31:20.237790 [debug] [Thread-1 (]: Using postgres connection "seed.dbt_currency.currency_daily"
+[0m15:31:20.238313 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "seed.dbt_currency.currency_daily"} */
+
+    create table "postgres"."msd_financial_dbt"."currency_daily" ("fetch_date" date,"country" text,"currency" text,"amount" integer,"currency_code" text,"rate" float8)
+  
+[0m15:31:20.261125 [debug] [Thread-1 (]: SQL status: CREATE TABLE in 0.022 seconds
+[0m15:31:22.157386 [debug] [Thread-1 (]: Using postgres connection "seed.dbt_currency.currency_daily"
+[0m15:31:22.158397 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: 
+          insert into "postgres"."msd_financial_dbt"."currency_daily" ("fetch_date", "country", "currency", "amount", "currency_code", "rate") values
+          (%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%...
+[0m15:31:22.190816 [debug] [Thread-1 (]: SQL status: INSERT 0 837 in 0.032 seconds
+[0m15:31:22.198955 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.dbt_currency.currency_daily"
+[0m15:31:22.236486 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: COMMIT
+[0m15:31:22.237419 [debug] [Thread-1 (]: Using postgres connection "seed.dbt_currency.currency_daily"
+[0m15:31:22.238476 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: COMMIT
+[0m15:31:22.242020 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m15:31:22.248252 [debug] [Thread-1 (]: On seed.dbt_currency.currency_daily: Close
+[0m15:31:22.255979 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '74e42fdd-0e7c-4ddc-8441-b55f6080d95f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D37827AD0>]}
+[0m15:31:22.257504 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file msd_financial_dbt.currency_daily .................... [[32mINSERT 837[0m in 2.41s]
+[0m15:31:22.259892 [debug] [Thread-1 (]: Finished running node seed.dbt_currency.currency_daily
+[0m15:31:22.264060 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:22.265530 [debug] [MainThread]: On master: BEGIN
+[0m15:31:22.266681 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:31:22.408796 [debug] [MainThread]: SQL status: BEGIN in 0.142 seconds
+[0m15:31:22.409869 [debug] [MainThread]: On master: COMMIT
+[0m15:31:22.410581 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:22.411359 [debug] [MainThread]: On master: COMMIT
+[0m15:31:22.412427 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m15:31:22.413135 [debug] [MainThread]: On master: Close
+[0m15:31:22.414058 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:31:22.414633 [debug] [MainThread]: Connection 'create_postgres_msd_financial_dbt' was properly closed.
+[0m15:31:22.415163 [debug] [MainThread]: Connection 'list_postgres_msd_financial_dbt_msd_financial_dbt' was properly closed.
+[0m15:31:22.415636 [debug] [MainThread]: Connection 'seed.dbt_currency.currency_daily' was properly closed.
+[0m15:31:22.416204 [info ] [MainThread]: 
+[0m15:31:22.417102 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 11.05 seconds (11.05s).
+[0m15:31:22.418671 [debug] [MainThread]: Command end result
+[0m15:31:22.473937 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m15:31:22.493513 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m15:31:22.520145 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\run_results.json
+[0m15:31:22.521733 [info ] [MainThread]: 
+[0m15:31:22.526426 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:31:22.528401 [info ] [MainThread]: 
+[0m15:31:22.529751 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m15:31:22.533529 [debug] [MainThread]: Command `dbt seed` succeeded at 15:31:22.532873 after 18.81 seconds
+[0m15:31:22.537473 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D37AA6F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D31AC2710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D3764EDF0>]}
+[0m15:31:22.539283 [debug] [MainThread]: Flushing usage events
+[0m15:31:29.571615 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:31:38.600694 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD38EF0050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD34B0F250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD3AF0BB10>]}
+
+
+============================== 15:31:38.611735 | 9d474c41-254c-4c0d-9f05-e86536112cf4 ==============================
+[0m15:31:38.611735 [info ] [MainThread]: Running with dbt=1.10.13
+[0m15:31:38.612850 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run --profiles-dir .', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'printer_width': '80', 'quiet': 'False', 'empty': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency\\logs', 'profiles_dir': '.', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m15:31:39.224461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9d474c41-254c-4c0d-9f05-e86536112cf4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD392A0B00>]}
+[0m15:31:39.423902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9d474c41-254c-4c0d-9f05-e86536112cf4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD39DBB790>]}
+[0m15:31:39.427652 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m15:31:40.393327 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m15:31:40.847198 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:31:40.848047 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:31:40.940853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9d474c41-254c-4c0d-9f05-e86536112cf4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD3B6FCE50>]}
+[0m15:31:41.129547 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m15:31:41.139097 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m15:31:41.235250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9d474c41-254c-4c0d-9f05-e86536112cf4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD39DD9B80>]}
+[0m15:31:41.236973 [info ] [MainThread]: Found 2 models, 1 seed, 447 macros
+[0m15:31:41.238490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9d474c41-254c-4c0d-9f05-e86536112cf4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD3B6EB690>]}
+[0m15:31:41.245944 [info ] [MainThread]: 
+[0m15:31:41.247335 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:31:41.248789 [info ] [MainThread]: 
+[0m15:31:41.251251 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m15:31:41.263540 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m15:31:41.615920 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m15:31:41.617272 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m15:31:41.618323 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:31:41.772124 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.154 seconds
+[0m15:31:41.773930 [debug] [ThreadPool]: On list_postgres: Close
+[0m15:31:41.775255 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres, now create_postgres_msd_financial_dbt_msd_financial_dbt)
+[0m15:31:41.776118 [debug] [ThreadPool]: Creating schema "database: "postgres"
+schema: "msd_financial_dbt_msd_financial_dbt"
+"
+[0m15:31:41.785495 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m15:31:41.786262 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt_msd_financial_dbt: BEGIN
+[0m15:31:41.786806 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:31:41.894753 [debug] [ThreadPool]: SQL status: BEGIN in 0.108 seconds
+[0m15:31:41.895336 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m15:31:41.895703 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "create_postgres_msd_financial_dbt_msd_financial_dbt"} */
+create schema if not exists "msd_financial_dbt_msd_financial_dbt"
+[0m15:31:41.897842 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.002 seconds
+[0m15:31:41.899052 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt_msd_financial_dbt: COMMIT
+[0m15:31:41.899495 [debug] [ThreadPool]: Using postgres connection "create_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m15:31:41.899842 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt_msd_financial_dbt: COMMIT
+[0m15:31:41.901836 [debug] [ThreadPool]: SQL status: COMMIT in 0.002 seconds
+[0m15:31:41.902363 [debug] [ThreadPool]: On create_postgres_msd_financial_dbt_msd_financial_dbt: Close
+[0m15:31:41.905476 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_msd_financial_dbt_msd_financial_dbt'
+[0m15:31:41.921606 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m15:31:41.922951 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: BEGIN
+[0m15:31:41.923591 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:31:42.053627 [debug] [ThreadPool]: SQL status: BEGIN in 0.130 seconds
+[0m15:31:42.054757 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt_msd_financial_dbt"
+[0m15:31:42.055588 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres_msd_financial_dbt_msd_financial_dbt"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'msd_financial_dbt_msd_financial_dbt'
+  
+[0m15:31:42.073221 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.017 seconds
+[0m15:31:42.076162 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: ROLLBACK
+[0m15:31:42.077658 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt_msd_financial_dbt: Close
+[0m15:31:42.079206 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres_msd_financial_dbt_msd_financial_dbt, now list_postgres_msd_financial_dbt)
+[0m15:31:42.084348 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt"
+[0m15:31:42.085363 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: BEGIN
+[0m15:31:42.085881 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:31:42.272537 [debug] [ThreadPool]: SQL status: BEGIN in 0.186 seconds
+[0m15:31:42.273134 [debug] [ThreadPool]: Using postgres connection "list_postgres_msd_financial_dbt"
+[0m15:31:42.273527 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "list_postgres_msd_financial_dbt"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'msd_financial_dbt'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'msd_financial_dbt'
+  
+[0m15:31:42.283056 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.009 seconds
+[0m15:31:42.284968 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: ROLLBACK
+[0m15:31:42.285973 [debug] [ThreadPool]: On list_postgres_msd_financial_dbt: Close
+[0m15:31:42.297401 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:42.298219 [debug] [MainThread]: On master: BEGIN
+[0m15:31:42.298864 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:31:42.419017 [debug] [MainThread]: SQL status: BEGIN in 0.120 seconds
+[0m15:31:42.419612 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:42.420056 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m15:31:42.430438 [debug] [MainThread]: SQL status: SELECT 0 in 0.010 seconds
+[0m15:31:42.432783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9d474c41-254c-4c0d-9f05-e86536112cf4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD3BADFE10>]}
+[0m15:31:42.433777 [debug] [MainThread]: On master: ROLLBACK
+[0m15:31:42.434854 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:42.435262 [debug] [MainThread]: On master: BEGIN
+[0m15:31:42.436055 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m15:31:42.436463 [debug] [MainThread]: On master: COMMIT
+[0m15:31:42.436838 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:42.437310 [debug] [MainThread]: On master: COMMIT
+[0m15:31:42.438133 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m15:31:42.438671 [debug] [MainThread]: On master: Close
+[0m15:31:42.448735 [debug] [Thread-1 (]: Began running node model.dbt_currency.stg_currency_daily
+[0m15:31:42.450332 [info ] [Thread-1 (]: 1 of 2 START sql table model msd_financial_dbt_msd_financial_dbt.stg_currency_daily  [RUN]
+[0m15:31:42.453462 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.dbt_currency.stg_currency_daily'
+[0m15:31:42.454705 [debug] [Thread-1 (]: Began compiling node model.dbt_currency.stg_currency_daily
+[0m15:31:42.474597 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_currency.stg_currency_daily"
+[0m15:31:42.478590 [debug] [Thread-1 (]: Began executing node model.dbt_currency.stg_currency_daily
+[0m15:31:42.604494 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_currency.stg_currency_daily"
+[0m15:31:42.607992 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.stg_currency_daily"
+[0m15:31:42.608972 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: BEGIN
+[0m15:31:42.610033 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:31:42.738153 [debug] [Thread-1 (]: SQL status: BEGIN in 0.128 seconds
+[0m15:31:42.739233 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.stg_currency_daily"
+[0m15:31:42.740066 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.stg_currency_daily"} */
+
+  
+    
+
+  create  table "postgres"."msd_financial_dbt_msd_financial_dbt"."stg_currency_daily__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select
+    fetch_date,
+    country,
+    currency,
+    amount,
+    currency_code,
+    rate
+from "postgres"."msd_financial_dbt"."currency_daily"
+where rate is not null
+  );
+  
+[0m15:31:42.766189 [debug] [Thread-1 (]: SQL status: SELECT 837 in 0.025 seconds
+[0m15:31:42.787826 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.stg_currency_daily"
+[0m15:31:42.788572 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.stg_currency_daily"} */
+alter table "postgres"."msd_financial_dbt_msd_financial_dbt"."stg_currency_daily__dbt_tmp" rename to "stg_currency_daily"
+[0m15:31:42.791870 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m15:31:42.831473 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: COMMIT
+[0m15:31:42.832819 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.stg_currency_daily"
+[0m15:31:42.833850 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: COMMIT
+[0m15:31:42.837933 [debug] [Thread-1 (]: SQL status: COMMIT in 0.003 seconds
+[0m15:31:42.856919 [debug] [Thread-1 (]: Applying DROP to: "postgres"."msd_financial_dbt_msd_financial_dbt"."stg_currency_daily__dbt_backup"
+[0m15:31:42.870547 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.stg_currency_daily"
+[0m15:31:42.871758 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.stg_currency_daily"} */
+drop table if exists "postgres"."msd_financial_dbt_msd_financial_dbt"."stg_currency_daily__dbt_backup" cascade
+[0m15:31:42.873845 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.001 seconds
+[0m15:31:42.878676 [debug] [Thread-1 (]: On model.dbt_currency.stg_currency_daily: Close
+[0m15:31:42.890189 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9d474c41-254c-4c0d-9f05-e86536112cf4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD3B8F3050>]}
+[0m15:31:42.892024 [info ] [Thread-1 (]: 1 of 2 OK created sql table model msd_financial_dbt_msd_financial_dbt.stg_currency_daily  [[32mSELECT 837[0m in 0.43s]
+[0m15:31:42.893948 [debug] [Thread-1 (]: Finished running node model.dbt_currency.stg_currency_daily
+[0m15:31:42.896126 [debug] [Thread-1 (]: Began running node model.dbt_currency.currency_weekly
+[0m15:31:42.897709 [info ] [Thread-1 (]: 2 of 2 START sql table model msd_financial_dbt_msd_financial_dbt.currency_weekly  [RUN]
+[0m15:31:42.899316 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_currency.stg_currency_daily, now model.dbt_currency.currency_weekly)
+[0m15:31:42.900122 [debug] [Thread-1 (]: Began compiling node model.dbt_currency.currency_weekly
+[0m15:31:42.906415 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_currency.currency_weekly"
+[0m15:31:42.910640 [debug] [Thread-1 (]: Began executing node model.dbt_currency.currency_weekly
+[0m15:31:42.921134 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_currency.currency_weekly"
+[0m15:31:42.926404 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.currency_weekly"
+[0m15:31:42.927362 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: BEGIN
+[0m15:31:42.928368 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:31:43.058102 [debug] [Thread-1 (]: SQL status: BEGIN in 0.130 seconds
+[0m15:31:43.059097 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.currency_weekly"
+[0m15:31:43.059654 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.currency_weekly"} */
+
+  
+    
+
+  create  table "postgres"."msd_financial_dbt_msd_financial_dbt"."currency_weekly__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with daily as (
+    select *
+    from "postgres"."msd_financial_dbt_msd_financial_dbt"."stg_currency_daily"
+),
+
+agg as (
+    select
+        extract(isoyear from fetch_date)::int as iso_year,
+        extract(week from fetch_date)::int as iso_week,
+        currency_code,
+        avg(rate)::numeric(18,8) as avg_rate,
+        count(*) as sample_count,
+        min(fetch_date) as week_start_date
+    from daily
+    group by 1,2,3
+)
+
+select *
+from agg
+  );
+  
+[0m15:31:43.090135 [debug] [Thread-1 (]: SQL status: SELECT 31 in 0.030 seconds
+[0m15:31:43.095162 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.currency_weekly"
+[0m15:31:43.095730 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.currency_weekly"} */
+alter table "postgres"."msd_financial_dbt_msd_financial_dbt"."currency_weekly__dbt_tmp" rename to "currency_weekly"
+[0m15:31:43.097526 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m15:31:43.100343 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: COMMIT
+[0m15:31:43.101113 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.currency_weekly"
+[0m15:31:43.101711 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: COMMIT
+[0m15:31:43.104984 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m15:31:43.109519 [debug] [Thread-1 (]: Applying DROP to: "postgres"."msd_financial_dbt_msd_financial_dbt"."currency_weekly__dbt_backup"
+[0m15:31:43.110592 [debug] [Thread-1 (]: Using postgres connection "model.dbt_currency.currency_weekly"
+[0m15:31:43.111161 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_currency_profile", "target_name": "dev", "node_id": "model.dbt_currency.currency_weekly"} */
+drop table if exists "postgres"."msd_financial_dbt_msd_financial_dbt"."currency_weekly__dbt_backup" cascade
+[0m15:31:43.112208 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.001 seconds
+[0m15:31:43.114805 [debug] [Thread-1 (]: On model.dbt_currency.currency_weekly: Close
+[0m15:31:43.116472 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9d474c41-254c-4c0d-9f05-e86536112cf4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD3B93EE60>]}
+[0m15:31:43.117843 [info ] [Thread-1 (]: 2 of 2 OK created sql table model msd_financial_dbt_msd_financial_dbt.currency_weekly  [[32mSELECT 31[0m in 0.22s]
+[0m15:31:43.119781 [debug] [Thread-1 (]: Finished running node model.dbt_currency.currency_weekly
+[0m15:31:43.122618 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:43.123357 [debug] [MainThread]: On master: BEGIN
+[0m15:31:43.123831 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:31:43.236933 [debug] [MainThread]: SQL status: BEGIN in 0.113 seconds
+[0m15:31:43.237767 [debug] [MainThread]: On master: COMMIT
+[0m15:31:43.238321 [debug] [MainThread]: Using postgres connection "master"
+[0m15:31:43.238843 [debug] [MainThread]: On master: COMMIT
+[0m15:31:43.239824 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m15:31:43.240441 [debug] [MainThread]: On master: Close
+[0m15:31:43.241366 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:31:43.241891 [debug] [MainThread]: Connection 'create_postgres_msd_financial_dbt_msd_financial_dbt' was properly closed.
+[0m15:31:43.242397 [debug] [MainThread]: Connection 'list_postgres_msd_financial_dbt' was properly closed.
+[0m15:31:43.242865 [debug] [MainThread]: Connection 'model.dbt_currency.currency_weekly' was properly closed.
+[0m15:31:43.243478 [info ] [MainThread]: 
+[0m15:31:43.244973 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 1.99 seconds (1.99s).
+[0m15:31:43.247249 [debug] [MainThread]: Command end result
+[0m15:31:43.291102 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m15:31:43.300124 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m15:31:43.318308 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\run_results.json
+[0m15:31:43.319444 [info ] [MainThread]: 
+[0m15:31:43.320835 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:31:43.321918 [info ] [MainThread]: 
+[0m15:31:43.323152 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m15:31:43.325616 [debug] [MainThread]: Command `dbt run` succeeded at 15:31:43.325379 after 5.15 seconds
+[0m15:31:43.326269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD3BBF2990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD3B91B9B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD36E6ADD0>]}
+[0m15:31:43.326945 [debug] [MainThread]: Flushing usage events
+[0m15:31:46.185023 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:31:55.399521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8001D0050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D87BE1F250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8021F3B10>]}
+
+
+============================== 15:31:55.408646 | c95f4fbc-721a-4662-b7ff-ff455498700d ==============================
+[0m15:31:55.408646 [info ] [MainThread]: Running with dbt=1.10.13
+[0m15:31:55.410341 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt test --profiles-dir .', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\divas\\Git Repo\\currency-etl-dbt\\dbt_currency\\logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '.'}
+[0m15:31:56.094836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c95f4fbc-721a-4662-b7ff-ff455498700d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D800580B00>]}
+[0m15:31:56.293208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c95f4fbc-721a-4662-b7ff-ff455498700d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D80109B790>]}
+[0m15:31:56.298212 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m15:31:57.334639 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m15:31:57.786705 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:31:57.787521 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:31:57.876238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c95f4fbc-721a-4662-b7ff-ff455498700d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D80296CF50>]}
+[0m15:31:58.044454 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m15:31:58.052348 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m15:31:58.174205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c95f4fbc-721a-4662-b7ff-ff455498700d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D802C48F50>]}
+[0m15:31:58.175534 [info ] [MainThread]: Found 2 models, 1 seed, 447 macros
+[0m15:31:58.176832 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c95f4fbc-721a-4662-b7ff-ff455498700d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D802BABD90>]}
+[0m15:31:58.180941 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m15:31:58.187362 [debug] [MainThread]: Command end result
+[0m15:31:58.248021 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\manifest.json
+[0m15:31:58.256288 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\semantic_manifest.json
+[0m15:31:58.265953 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\divas\Git Repo\currency-etl-dbt\dbt_currency\target\run_results.json
+[0m15:31:58.270815 [debug] [MainThread]: Command `dbt test` succeeded at 15:31:58.269962 after 3.27 seconds
+[0m15:31:58.272215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D802C0FAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D801026450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D802B7AD50>]}
+[0m15:31:58.273390 [debug] [MainThread]: Flushing usage events
+[0m15:32:01.235034 [debug] [MainThread]: An error was encountered while trying to flush usage events
