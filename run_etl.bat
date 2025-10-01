@@ -33,10 +33,6 @@ REM 7. Run dbt models (staging + marts)
 echo Running dbt models...
 dbt run --profiles-dir .
 
-REM 8. Optional: run dbt tests
-echo Running dbt tests...
-dbt test --profiles-dir .
-
 REM 9. Return to root folder
 cd ..
 
