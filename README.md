@@ -1,27 +1,8 @@
-Currency ETL with dbt
-
+**Currency ETL with dbt**
 This project implements an end-to-end ETL pipeline to fetch currency exchange rates from an API, load the raw data into Postgres, and transform it into analytics-ready tables using dbt.
 
-📂 Project Structure
 
-currency_pipeline/
-├── src/ # Python ingestion layer
-│ ├── fetch_currency_api.py # Fetches daily currency data from API
-│ ├── logger.py # Logging utility
-│ ├── exception.py # Custom exception handling
-│
-├── dbt_currency/ # dbt project (SQL transformations)
-│ ├── models/ # dbt models (staging + marts)
-│ ├── seeds/ # Raw CSV data from ingestion
-│ ├── dbt_project.yml # dbt configuration
-│ └── profiles.yml # dbt Postgres profile
-│
-├── config.yml # API + DB configuration
-├── requirements.txt # Python dependencies
-├── run_etl.bat # Windows batch script for full ETL run
-└── README.md # Project documentation
-
-⚙️ Setup Instructions
+**Setup Instructions**
 1. Clone the repo
 
 git clone <repo-url>
@@ -32,7 +13,7 @@ cd currency_pipeline
 Just run the batch script:
 run_etl.bat
 
-▶️ What the Batch File Does
+What the Batch File Does
 
 The batch script (run_etl.bat) automates the entire process:
 
@@ -52,13 +33,13 @@ Runs dbt test to validate the transformations.
 
 No manual setup of virtual environment is needed — everything is handled inside the batch file.
 
-🐍 Python Script (Optional Run)
+Python Script (Optional Run)
 
 The ingestion script is run automatically via the batch file, but you can run it manually if needed:
 
 python src/fetch_currency_api.py --config config.yml
 
-🛠️ Configuration
+Configuration
 
 config.yml contains:
 
@@ -70,7 +51,7 @@ Target currency list
 
 Update this file before running the pipeline.
 
-✅ Example Workflow
+Example Workflow
 
 Run run_etl.bat
 
